@@ -58,9 +58,11 @@ async function ucitajPdfove() {
 
     svaNatjecanja = ispitneDatoteke.map(ime => {
       const bazniKod = ime.replace(/\.pdf$/i, "");
-      const [razred, predmet, razina, godina] = bazniKod.split("-");
+      const [razred, predmet, razina, godina, varijanta] = bazniKod.split("-");
       const rjIme = `${bazniKod}-rj.pdf`;
       const imaRjesenja = pdfImena.has(rjIme);
+
+      const oznakaVarijante = varijanta ? ` (${varijanta.toUpperCase()} varijanta)` : "";
 
       return {
         kod: bazniKod,
@@ -68,7 +70,8 @@ async function ucitajPdfove() {
         predmet: predmet || "",
         razina: razina || "",
         godina: godina || "",
-        naziv: `${naziviPredmeta[predmet] || predmet} - ${naziviRazina[razina] || razina} (${godina}.)`,
+        varijanta: varijanta ? varijanta.toUpperCase() : "",
+        naziv: `${naziviPredmeta[predmet] || predmet} - ${naziviRazina[razina] || razina}${oznakaVarijante} (${godina}.)`,
         zadaciUrl: `${PDF_FOLDER}/${ime}`,
         rjesenjaUrl: imaRjesenja ? `${PDF_FOLDER}/${rjIme}` : ""
       };
@@ -125,6 +128,7 @@ function prikaziNatjecanja() {
           <span class="tag">${naziviRazreda[n.razred] || n.razred}</span>
           <span class="tag">${naziviPredmeta[n.predmet] || n.predmet}</span>
           <span class="tag">${naziviRazina[n.razina] || n.razina}</span>
+          ${n.varijanta ? `<span class="tag">${n.varijanta} varijanta</span>` : ""}
           <span class="tag">${n.godina}.</span>
           <span class="tag">${n.kod}</span>
         </div>
