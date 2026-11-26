@@ -10,61 +10,72 @@
   <header class="topbar">
     <div class="container topbar-inner">
       <a href="index.html" class="brand">Sva Natjecanja</a>
-      <span class="subtitle">Baza zadataka, rješenja i rokova</span>
+      <span class="subtitle">Baza zadataka i rješenja</span>
     </div>
   </header>
 
   <main class="container">
     <section class="filter-bar">
-      <div class="filter-group search-group">
-        <label for="searchInput">Pretraga</label>
-        <input type="text" id="searchInput" placeholder="Predmet ili naziv natjecanja">
-      </div>
-
       <div class="filter-group">
-        <label for="razinaFilter">Razina</label>
-        <select id="razinaFilter">
-          <option value="sve">Sve razine</option>
-          <option value="Školsko">Školsko</option>
-          <option value="Županijsko">Županijsko</option>
-          <option value="Državno">Državno</option>
-          <option value="Ostalo">Ostalo</option>
-        </select>
-      </div>
-
-      <div class="filter-group">
-        <label for="razredFilter">Razred</label>
+        <label for="razredFilter">1. Razred</label>
         <select id="razredFilter">
           <option value="svi">Svi razredi</option>
-          <option value="5. OŠ">5. razred OŠ</option>
-          <option value="6. OŠ">6. razred OŠ</option>
-          <option value="7. OŠ">7. razred OŠ</option>
-          <option value="8. OŠ">8. razred OŠ</option>
-          <option value="1. SŠ">1. razred SŠ</option>
-          <option value="2. SŠ">2. razred SŠ</option>
-          <option value="3. SŠ">3. razred SŠ</option>
-          <option value="4. SŠ">4. razred SŠ</option>
+          <option value="1r">1. razred OŠ (1r)</option>
+          <option value="2r">2. razred OŠ (2r)</option>
+          <option value="3r">3. razred OŠ (3r)</option>
+          <option value="4r">4. razred OŠ (4r)</option>
+          <option value="5r">5. razred OŠ (5r)</option>
+          <option value="6r">6. razred OŠ (6r)</option>
+          <option value="7r">7. razred OŠ (7r)</option>
+          <option value="8r">8. razred OŠ (8r)</option>
+          <option value="1rs">1. razred SŠ (1rs)</option>
+          <option value="2rs">2. razred SŠ (2rs)</option>
+          <option value="3rs">3. razred SŠ (3rs)</option>
+          <option value="4rs">4. razred SŠ (4rs)</option>
         </select>
       </div>
 
       <div class="filter-group">
-        <label for="godinaFilter">Školska godina</label>
+        <label for="predmetFilter">2. Predmet</label>
+        <select id="predmetFilter">
+          <option value="svi">Svi predmeti</option>
+          <option value="hrj">Hrvatski jezik (hrj)</option>
+          <option value="eng">Engleski jezik (eng)</option>
+          <option value="mat">Matematika (mat)</option>
+          <option value="fiz">Fizika (fiz)</option>
+          <option value="kem">Kemija (kem)</option>
+          <option value="pov">Povijest (pov)</option>
+          <option value="geo">Geografija (geo)</option>
+          <option value="bio">Biologija (bio)</option>
+          <option value="inf">Informatika (inf)</option>
+        </select>
+      </div>
+
+      <div class="filter-group">
+        <label for="razinaFilter">3. Razina</label>
+        <select id="razinaFilter">
+          <option value="sve">Sve razine</option>
+          <option value="sko">Školsko (ško)</option>
+          <option value="zup">Županijsko (žup)</option>
+          <option value="drz">Državno (drž)</option>
+        </select>
+      </div>
+
+      <div class="filter-group">
+        <label for="godinaFilter">4. Godina</label>
         <select id="godinaFilter">
           <option value="sve">Sve godine</option>
-          <option value="2026./2027.">2026./2027.</option>
-          <option value="2025./2026.">2025./2026.</option>
-          <option value="2024./2025.">2024./2025.</option>
         </select>
       </div>
     </section>
 
     <div class="results-meta">
-      <span id="resultsCount">Prikazano: 0</span>
+      <span id="resultsCount">Učitavanje...</span>
       <button type="button" id="resetBtn" class="btn-reset">Poništi filtere</button>
     </div>
 
     <section id="natjecanjaList" class="list-container">
-      <!-- Popis natjecanja -->
+      <!-- Automatski prikaz datoteka -->
     </section>
   </main>
 

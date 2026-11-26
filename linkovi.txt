@@ -1,0 +1,6 @@
+os-mat-sko-2026 http://www.antonija-horvatek.from.hr/natjecanja-iz-matematike/zadaci/2026/2026-OS-skolsko-45678-zad+rj/2026-OS-skolsko-45678-zad.pdf
+os-mat-sko-2026-rj http://www.antonija-horvatek.from.hr/natjecanja-iz-matematike/zadaci/2026/2026-OS-skolsko-45678-zad+rj/2026-OS-skolsko-45678-rj.pdf
+os-mat-zup-2026 http://www.antonija-horvatek.from.hr/natjecanja-iz-matematike/zadaci/2026/2026-OS-zupanijsko-45678-zad+rj/2026-OS-zupanijsko-45678-zad.pdf
+os-mat-zup-2026-rj http://www.antonija-horvatek.from.hr/natjecanja-iz-matematike/zadaci/2026/2026-OS-zupanijsko-45678-zad+rj/2026-OS-zupanijsko-45678-rj.pdf
+os-mat-drz-2026 http://www.antonija-horvatek.from.hr/natjecanja-iz-matematike/zadaci/2026/2026-OS-drzavno-5678-zad+rj/2026-OS-drzavno-5678-zad.pdf
+os-mat-drz-2026-rj http://www.antonija-horvatek.from.hr/natjecanja-iz-matematike/zadaci/2026/2026-OS-drzavno-5678-zad+rj/2026-OS-drzavno-5678-rj.pdf
