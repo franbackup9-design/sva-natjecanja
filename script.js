@@ -1,5 +1,3 @@
-const GITHUB_USER = "franbackup9-design";
-const GITHUB_REPO = "sva-natjecanja";
 const PDF_FOLDER = "pdf";
 
 const naziviPredmeta = {
@@ -47,22 +45,15 @@ const razinaFilter = document.getElementById("razinaFilter");
 const godinaFilter = document.getElementById("godinaFilter");
 const resetBtn = document.getElementById("resetBtn");
 
-async function ucitajPdfoveSGitHuba() {
+async function ucitajPdfove() {
   try {
-    const apiUrl = `https://github.com{GITHUB_USER}/${GITHUB_REPO}/contents/${PDF_FOLDER}`;
-    const response = await fetch(apiUrl);
-    
+    const response = await fetch("popis.json?v=" + Date.now());
     if (!response.ok) {
-      throw new Error("Mapa pdf još ne postoji na GitHubu ili je prazna.");
+      throw new Error("Nema popisa.");
     }
 
     const files = await response.json();
-    const pdfImena = new Set(
-      files
-        .filter(f => f.name.toLowerCase().endsWith(".pdf"))
-        .map(f => f.name)
-    );
-
+    const pdfImena = new Set(files);
     const ispitneDatoteke = [...pdfImena].filter(ime => !ime.toLowerCase().endsWith("-rj.pdf"));
 
     svaNatjecanja = ispitneDatoteke.map(ime => {
@@ -83,14 +74,13 @@ async function ucitajPdfoveSGitHuba() {
       };
     });
 
-    // Sortiraj od najnovije godine prema starijima
     svaNatjecanja.sort((a, b) => Number(b.godina) - Number(a.godina));
 
     popuniGodineFilter();
     prikaziNatjecanja();
   } catch (error) {
     resultsCount.textContent = "Prikazano: 0";
-    listContainer.innerHTML = `<div class="empty-state">Dodaj prve PDF datoteke u mapu <strong>pdf/</strong> i pošalji ih na GitHub kako bi se prikazale ovdje.</div>`;
+    listContainer.innerHTML = `<div class="empty-state">Pokreni <strong>python3 skini.py</strong> kako bi se generirao popis PDF datoteka.</div>`;
   }
 }
 
@@ -161,4 +151,4 @@ razinaFilter.addEventListener("change", prikaziNatjecanja);
 godinaFilter.addEventListener("change", prikaziNatjecanja);
 resetBtn.addEventListener("click", resetirajFiltere);
 
-ucitajPdfoveSGitHuba();
+ucitajPdfove();
