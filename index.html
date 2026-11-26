@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sva Natjecanja</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="container topbar-inner">
+      <a href="index.html" class="brand">Sva Natjecanja</a>
+      <span class="subtitle">Baza zadataka, rješenja i rokova</span>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="filter-bar">
+      <div class="filter-group search-group">
+        <label for="searchInput">Pretraga</label>
+        <input type="text" id="searchInput" placeholder="Predmet ili naziv natjecanja">
+      </div>
+
+      <div class="filter-group">
+        <label for="razinaFilter">Razina</label>
+        <select id="razinaFilter">
+          <option value="sve">Sve razine</option>
+          <option value="Školsko">Školsko</option>
+          <option value="Županijsko">Županijsko</option>
+          <option value="Državno">Državno</option>
+          <option value="Ostalo">Ostalo</option>
+        </select>
+      </div>
+
+      <div class="filter-group">
+        <label for="razredFilter">Razred</label>
+        <select id="razredFilter">
+          <option value="svi">Svi razredi</option>
+          <option value="5. OŠ">5. razred OŠ</option>
+          <option value="6. OŠ">6. razred OŠ</option>
+          <option value="7. OŠ">7. razred OŠ</option>
+          <option value="8. OŠ">8. razred OŠ</option>
+          <option value="1. SŠ">1. razred SŠ</option>
+          <option value="2. SŠ">2. razred SŠ</option>
+          <option value="3. SŠ">3. razred SŠ</option>
+          <option value="4. SŠ">4. razred SŠ</option>
+        </select>
+      </div>
+
+      <div class="filter-group">
+        <label for="godinaFilter">Školska godina</label>
+        <select id="godinaFilter">
+          <option value="sve">Sve godine</option>
+          <option value="2026./2027.">2026./2027.</option>
+          <option value="2025./2026.">2025./2026.</option>
+          <option value="2024./2025.">2024./2025.</option>
+        </select>
+      </div>
+    </section>
+
+    <div class="results-meta">
+      <span id="resultsCount">Prikazano: 0</span>
+      <button type="button" id="resetBtn" class="btn-reset">Poništi filtere</button>
+    </div>
+
+    <section id="natjecanjaList" class="list-container">
+      <!-- Popis natjecanja -->
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
