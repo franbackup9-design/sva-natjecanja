@@ -16,3 +16,9 @@ ss-mat-drz-2026-A http://www.antonija-horvatek.from.hr/natjecanja-iz-matematike/
 ss-mat-drz-2026-A-rj http://www.antonija-horvatek.from.hr/natjecanja-iz-matematike/zadaci/2026/2026-SS-drzavno-1234-zad+rj/2026-SS-drzavno-A-1234-rj.pdf
 ss-mat-drz-2026-B http://www.antonija-horvatek.from.hr/natjecanja-iz-matematike/zadaci/2026/2026-SS-drzavno-1234-zad+rj/2026-SS-drzavno-B-1234-zad.pdf
 ss-mat-drz-2026-B-rj http://www.antonija-horvatek.from.hr/natjecanja-iz-matematike/zadaci/2026/2026-SS-drzavno-1234-zad+rj/2026-SS-drzavno-B-1234-rj.pdf
+7r-hrj-sko-2026 https://www.azoo.hr/app/uploads/2026/02/HRVATSKI_skolsko_7.r.zip
+8r-hrj-sko-2026 https://www.azoo.hr/app/uploads/2026/02/HRVATSKI_skolsko_8.r.zip
+1rs-hrj-sko-2026 https://www.azoo.hr/app/uploads/2026/02/HRVATSKI_-skolsko_1.r.zip
+2rs-hrj-sko-2026 https://www.azoo.hr/app/uploads/2026/02/HRVATSKI_skolsko_2.r.zip
+3rs-hrj-sko-2026 https://www.azoo.hr/app/uploads/2026/02/HRVATSKI_skolsko_3.r.zip
+4rs-hrj-sko-2026 https://www.azoo.hr/app/uploads/2026/02/HRVATSKI_skolsko_4.r.zip
