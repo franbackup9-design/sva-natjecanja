@@ -43,3 +43,14 @@ fiz-drz-2026 https://www.azoo.hr/app/uploads/2026/06/testovi-i-rjesenja-s-drzavn
 kem-drz-2026 https://www.azoo.hr/app/uploads/2026/07/2026_drzavno_zadace_i_rjesenja.zip
 kem-sko-2026 https://www.azoo.hr/app/uploads/2026/04/2026_skolsko_zadace_i_rjesenja.zip
 kem-zup-2026 https://www.azoo.hr/app/uploads/2026/04/2026_zupanijsko_zadace_i_rjesenja.zip
+pov-sko-2026 https://www.azoo.hr/app/uploads/2026/02/Pov-skolsko-2026-OS.zip
+pov-sko-2026 https://www.azoo.hr/app/uploads/2026/02/Pov_-skolsko-2026-SS.zip
+pov-zup-2026 https://www.azoo.hr/app/uploads/2026/04/Zupanijsko-natjecanje-POV-OS-.zip
+pov-zup-2026 https://www.azoo.hr/app/uploads/2026/04/Zupanijsko-natjecanje-POV-SS-.zip
+pov-drz-2026 https://www.azoo.hr/app/uploads/2026/05/Povijest-2026.zip
+geo-sko-2026 https://www.azoo.hr/app/uploads/2026/07/Skolsko-natjecanje-iz-geografije-2026.zip
+geo-zup-2026 https://www.azoo.hr/app/uploads/2026/07/Zupanijsko-natjecanje-iz-geografije-2026.zip
+geo-drz-2026 https://www.azoo.hr/app/uploads/2026/07/Drzavno-natjecanje-iz-geografije-2026.zip
+bio-sko-2026 https://www.azoo.hr/app/uploads/2026/02/BIO_skolsko-2026.zip
+bio-zup-2026 https://www.azoo.hr/app/uploads/2026/03/BIO_Zupanijsko-2026.zip
+inf-sko-2026 https://www.azoo.hr/app/uploads/2026/10/Natjecanje-iz-informatika-2026.zip
