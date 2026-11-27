@@ -1,143 +1,88 @@
-import os
-import io
-import re
-import json
-import zipfile
-import urllib.request
+import os, io, re, json, zipfile, urllib.request
 
-MAPA_PDF = "pdf"
-DATOTEKA_LINKOVI = "linkovi.txt"
-DATOTEKA_POPIS = "popis.json"
+MAPA = "pdf"
+os.makedirs(MAPA, exist_ok=True)
+HEADERS = {"User-Agent": "Mozilla/5.0"}
 
-os.makedirs(MAPA_PDF, exist_ok=True)
-headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"}
+def ime_iz_zipa(sifra, putanja):
+    ime = os.path.basename(putanja).lower()
+    puna = putanja.lower()
+    dijelovi = sifra.split("-")
+    prvi = dijelovi[0]
 
-
-def prepoznaj_naziv_iz_zipa(bazna_sifra, unutarnja_putanja):
-    cisto_ime = os.path.basename(unutarnja_putanja)
-    bez_ekst = os.path.splitext(cisto_ime)[0].lower()
-    puna_putanja = unutarnja_putanja.lower()
-
-    dijelovi_sifre = bazna_sifra.split("-")
-    ima_razred_u_sifri = bool(re.match(r"^([1-8]rs?|[os]s)$", dijelovi_sifre[0]))
-
-    razred = dijelovi_sifre[0] if ima_razred_u_sifri else ""
-    ostatak_sifre = "-".join(dijelovi_sifre[1:]) if ima_razred_u_sifri else bazna_sifra
-
-    if not razred:
-        m_raz = re.search(r"(?:^|[^0-9])([1-8])\s*\.?\s*(?:skupin|raz|r\b|_r|-r|a\b|b\b)", puna_putanja)
-        if m_raz:
-            broj = m_raz.group(1)
-            if broj in ["1", "2", "3", "4"] and "mat" not in bazna_sifra.lower():
-                razred = f"{broj}rs"
-            else:
-                je_ss = any(k in puna_putanja for k in ["skupina", "rsš", "rss", "ss", "srednj", "gimn", "struk"])
-                razred = f"{broj}{'rs' if je_ss else 'r'}"
+    # 1. Razred: ako ga već nema u šifri (npr. "hrj-zup-2026"), izvuci ga iz naziva datoteke/mape
+    if re.match(r"^([1-8]rs?|os|ss)$", prvi):
+        razred = prvi
+        ostatak = "-".join(dijelovi[1:])
+    else:
+        ostatak = sifra
+        m = re.search(r"(?:^|[^0-9])([1-8])\s*\.?\s*(?:skupin|raz|r\b|_r|-r|a\b|b\b)", puna)
+        if m:
+            br = m.group(1)
+            je_ss = (br in ["1", "2", "3", "4"] and "mat" not in sifra) or any(
+                k in puna for k in ["ss", "sš", "srednj", "gimn", "struk", "skupin"]
+            )
+            razred = f"{br}{'rs' if je_ss else 'r'}"
         else:
-            je_ss = any(k in puna_putanja for k in ["skupina", "rsš", "rss", "ss", "srednj", "gimn", "struk"])
-            razred = "ss" if je_ss else "os"
+            razred = "ss" if any(k in puna for k in ["ss", "sš", "srednj"]) else "os"
 
-    varijanta = ""
-    if re.search(r"(?:^|[^a-z0-9])(2\s*a|4\s*a|kat\s*a|kategorija\s*a|varijanta\s*a|_a\b|-a\b)", puna_putanja):
-        varijanta = "-A"
-    elif re.search(r"(?:^|[^a-z0-9])(2\s*b|4\s*b|kat\s*b|kategorija\s*b|varijanta\s*b|_b\b|-b\b)", puna_putanja):
-        varijanta = "-B"
-    elif re.search(r"(?:^|[^a-z0-9])(lista\s*c|list\s*c|kat\s*c|kategorija\s*c|_c\b|-c\b)", puna_putanja):
-        varijanta = "-C"
+    # 2. Varijanta (A, B)
+    var = ""
+    if re.search(r"(?:^|[^a-z0-9])(2|4)?\s*[\._-]?\s*a(?:[^a-z0-9]|$)", puna) and "eng" in sifra:
+        var = "-A"
+    elif re.search(r"(?:^|[^a-z0-9])(2|4)?\s*[\._-]?\s*b(?:[^a-z0-9]|$)", puna) and "eng" in sifra:
+        var = "-B"
 
-    je_prakticni = any(k in bez_ekst for k in ["eksp", "praktičn", "prakticn"])
-    je_rj = bool(
-        any(k in bez_ekst for k in ["rjes", "rješ", "rj_", "_rj", "-rj", "key", "odgovor", "kljuc", "ključ", "ispravak"])
-        or re.search(r"(?:_r\b|_r_|2026-2$)", bez_ekst)
-    )
+    # 3. Tip dokumenta (zadaci, rješenja, transkript, list)
+    if any(k in ime for k in ["answer sheet", "answer_sheet", "list_za", "list-za", "obrazac"]):
+        tip = "-list"
+    elif any(k in ime for k in ["transkript", "transcript"]):
+        tip = "-transkript"
+    elif any(k in ime for k in ["rjes", "rješ", "rj_", "_rj", "-rj", "key", "odgovor", "kljuc", "ključ"]) or re.search(r"_r\b|_r_", ime):
+        tip = "-rj"
+    else:
+        tip = ""
 
-    dodatak = ""
-    if any(k in bez_ekst for k in ["answer sheet", "answer_sheet", "answer-sheet", "list_za", "list-za", "obrazac"]):
-        dodatak = "-list"
-    elif any(k in bez_ekst for k in ["transkript", "transcript", "slusanje", "slušanje"]):
-        dodatak = "-transkript"
-    elif je_prakticni and je_rj:
-        dodatak = "-prakticni-rj"
-    elif je_prakticni:
-        dodatak = "-prakticni"
-    elif je_rj:
-        dodatak = "-rj"
+    return f"{razred}-{ostatak}{var}{tip}.pdf"
 
-    return f"{razred}-{ostatak_sifre}{varijanta}{dodatak}.pdf"
-
-
-def obradi_zip(zip_bytes, bazna_sifra):
-    with zipfile.ZipFile(zip_bytes) as zf:
-        for unutarnje_ime in zf.namelist():
-            if unutarnje_ime.startswith("__MACOSX") or unutarnje_ime.endswith("/"):
+def raspakiraj(podaci_zipa, sifra):
+    with zipfile.ZipFile(podaci_zipa) as zf:
+        for f in zf.namelist():
+            if f.startswith("__MACOSX") or f.endswith("/"):
                 continue
+            if f.lower().endswith(".zip"):
+                raspakiraj(io.BytesIO(zf.read(f)), sifra)
+            elif f.lower().endswith(".pdf"):
+                novo_ime = ime_iz_zipa(sifra, f)
+                put = os.path.join(MAPA, novo_ime)
+                n = 2
+                while os.path.exists(put):
+                    b, e = os.path.splitext(novo_ime)
+                    put = os.path.join(MAPA, f"{b}-{n}{e}")
+                    n += 1
+                open(put, "wb").write(zf.read(f))
+                print(f"  + {os.path.basename(put)}")
 
-            donje_ime = unutarnje_ime.lower()
-
-            if donje_ime.endswith(".zip"):
-                obradi_zip(io.BytesIO(zf.read(unutarnje_ime)), bazna_sifra)
-                continue
-
-            if not donje_ime.endswith(".pdf"):
-                continue
-
-            ciljno_ime = prepoznaj_naziv_iz_zipa(bazna_sifra, unutarnje_ime)
-            ciljna_putanja = os.path.join(MAPA_PDF, ciljno_ime)
-
-            brojac = 2
-            while os.path.exists(ciljna_putanja):
-                baza, ekst = os.path.splitext(ciljno_ime)
-                ciljna_putanja = os.path.join(MAPA_PDF, f"{baza}-{brojac}{ekst}")
-                brojac += 1
-
-            with open(ciljna_putanja, "wb") as out:
-                out.write(zf.read(unutarnje_ime))
-            print(f"[OK ZIP] {os.path.basename(unutarnje_ime)} -> {os.path.basename(ciljna_putanja)}")
-
-
-if os.path.exists(DATOTEKA_LINKOVI):
-    with open(DATOTEKA_LINKOVI, "r", encoding="utf-8") as f:
-        linije = [linija.strip() for linija in f if linija.strip() and not linija.startswith("#")]
-
-    for linija in linije:
-        dijelovi = linija.split(maxsplit=1)
-        if len(dijelovi) != 2:
+with open("linkovi.txt", encoding="utf-8") as f:
+    for linija in f:
+        linija = linija.strip()
+        if not linija or linija.startswith("#"):
             continue
+        sifra, url = linija.split(maxsplit=1)
+        if not url.lower().endswith(".zip") and os.path.exists(os.path.join(MAPA, f"{sifra}.pdf")):
+            continue
+        try:
+            req = urllib.request.Request(url, headers=HEADERS)
+            podaci = urllib.request.urlopen(req, timeout=30).read()
+            if url.lower().endswith(".zip"):
+                print(f"[ZIP] {sifra}")
+                raspakiraj(io.BytesIO(podaci), sifra)
+            else:
+                open(os.path.join(MAPA, f"{sifra}.pdf"), "wb").write(podaci)
+                print(f"[PDF] {sifra}.pdf")
+        except Exception as e:
+            print(f"[GREŠKA] {sifra}: {e}")
 
-        sifra, url = dijelovi
-
-        if url.lower().endswith(".zip"):
-            dijelovi_s = sifra.split("-")
-            kljuc_provjere = "-".join(dijelovi_s[1:]) if re.match(r"^([1-8]rs?|[os]s)$", dijelovi_s[0]) else sifra
-            vec_skinuto = any(kljuc_provjere in f for f in os.listdir(MAPA_PDF))
-
-            if vec_skinuto:
-                print(f"[VEĆ POSTOJI] {sifra}")
-                continue
-
-            try:
-                req = urllib.request.Request(url, headers=headers)
-                with urllib.request.urlopen(req, timeout=30) as odgovor:
-                    zip_podaci = io.BytesIO(odgovor.read())
-                obradi_zip(zip_podaci, sifra)
-            except Exception as e:
-                print(f"[GREŠKA ZIP] {sifra} -> {e}")
-
-        else:
-            putanja_glavna = os.path.join(MAPA_PDF, f"{sifra}.pdf")
-            if os.path.exists(putanja_glavna):
-                continue
-            try:
-                req = urllib.request.Request(url, headers=headers)
-                with urllib.request.urlopen(req, timeout=20) as odgovor:
-                    with open(putanja_glavna, "wb") as out:
-                        out.write(odgovor.read())
-                print(f"[OK] Preuzeto: {sifra}.pdf")
-            except Exception as e:
-                print(f"[GREŠKA] {sifra}.pdf -> {e}")
-
-svi_pdfovi = sorted([f for f in os.listdir(MAPA_PDF) if f.lower().endswith(".pdf")])
-with open(DATOTEKA_POPIS, "w", encoding="utf-8") as out:
-    json.dump(svi_pdfovi, out, ensure_ascii=False, indent=2)
-
-print(f"\nAžuriran {DATOTEKA_POPIS} (ukupno PDF-ova: {len(svi_pdfovi)})")
+pdfovi = sorted(x for x in os.listdir(MAPA) if x.lower().endswith(".pdf"))
+json.dump(pdfovi, open("popis.json", "w", encoding="utf-8"), ensure_ascii=False, indent=2)
+print(f"\nGotovo! Ukupno PDF-ova: {len(pdfovi)}")
