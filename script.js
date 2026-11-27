@@ -1,5 +1,4 @@
-const PDF_FOLDER = "https://github.com/franbackup9-design/sva-natjecanja/raw/main/pdf";
-
+const PDF_FOLDER = "https://github.com";
 
 const naziviPredmeta = {
   hrj: "Hrvatski jezik",
@@ -56,19 +55,27 @@ async function ucitajPdfove() {
     const files = await response.json();
     const pdfImena = new Set(files);
 
+    // Ignoriraj numerirane duplikate tipa -2.pdf, -3.pdf
+    const cisteDatoteke = [...pdfImena].filter(ime => !/-\d+\.pdf$/i.test(ime));
+
     const dodatniNastavci = ["-rj.pdf", "-list.pdf", "-transkript.pdf", "-prakticni-rj.pdf"];
-    const ispitneDatoteke = [...pdfImena].filter(
+    const ispitneDatoteke = cisteDatoteke.filter(
       ime => !dodatniNastavci.some(nastavak => ime.toLowerCase().endsWith(nastavak))
     );
 
     svaNatjecanja = ispitneDatoteke.map(ime => {
       const bazniKod = ime.replace(/\.pdf$/i, "");
-      const [razred, predmet, razina, godina, ...ostalo] = bazniKod.split("-");
+      const dijelovi = bazniKod.split("-");
 
-      const sirovaVarijanta = ostalo.join("-");
-      const jePravaVarijanta = ["A", "B", "C"].includes(sirovaVarijanta.toUpperCase());
-      const varijanta = jePravaVarijanta ? sirovaVarijanta.toUpperCase() : "";
-      const jePrakticni = sirovaVarijanta.toLowerCase() === "prakticni";
+      const razred = dijelovi.at(0) || "";
+      const predmet = dijelovi.at(1) || "";
+      const razina = dijelovi.at(2) || "";
+
+      const godinaMatch = bazniKod.match(/(20\d{2})/);
+      const godina = godinaMatch ? godinaMatch.at(0) : "";
+
+      const jePrakticni = dijelovi.includes("prakticni");
+      const varijanta = dijelovi.includes("A") ? "A" : dijelovi.includes("B") ? "B" : dijelovi.includes("C") ? "C" : "";
 
       const rjIme = `${bazniKod}-rj.pdf`;
       const listIme = `${bazniKod}-list.pdf`;
@@ -78,10 +85,10 @@ async function ucitajPdfove() {
 
       return {
         kod: bazniKod,
-        razred: razred || "",
-        predmet: predmet || "",
-        razina: razina || "",
-        godina: godina || "",
+        razred,
+        predmet,
+        razina,
+        godina,
         varijanta,
         naziv: `${naziviPredmeta[predmet] || predmet} - ${naziviRazina[razina] || razina}${oznakaVarijante} (${godina}.)`,
         zadaciUrl: `${PDF_FOLDER}/${ime}`,
@@ -90,6 +97,38 @@ async function ucitajPdfove() {
         listUrl: pdfImena.has(listIme) ? `${PDF_FOLDER}/${listIme}` : ""
       };
     });
+
+    // Dodaj i one ispite za koje postoji samo -rj.pdf
+    const postojeciKodovi = new Set(svaNatjecanja.map(n => n.kod));
+    cisteDatoteke
+      .filter(ime => ime.toLowerCase().endsWith("-rj.pdf") && !ime.toLowerCase().endsWith("-prakticni-rj.pdf"))
+      .forEach(rjIme => {
+        const bazniKod = rjIme.replace(/-rj\.pdf$/i, "");
+        if (postojeciKodovi.has(bazniKod)) return;
+
+        const dijelovi = bazniKod.split("-");
+        const razred = dijelovi.at(0) || "";
+        const predmet = dijelovi.at(1) || "";
+        const razina = dijelovi.at(2) || "";
+        const godinaMatch = bazniKod.match(/(20\d{2})/);
+        const godina = godinaMatch ? godinaMatch.at(0) : "";
+        const varijanta = dijelovi.includes("A") ? "A" : dijelovi.includes("B") ? "B" : dijelovi.includes("C") ? "C" : "";
+        const oznakaVarijante = varijanta ? ` (${varijanta} varijanta)` : "";
+
+        svaNatjecanja.push({
+          kod: bazniKod,
+          razred,
+          predmet,
+          razina,
+          godina,
+          varijanta,
+          naziv: `${naziviPredmeta[predmet] || predmet} - ${naziviRazina[razina] || razina}${oznakaVarijante} (${godina}.)`,
+          zadaciUrl: "",
+          rjesenjaUrl: `${PDF_FOLDER}/${rjIme}`,
+          transkriptUrl: "",
+          listUrl: ""
+        });
+      });
 
     svaNatjecanja.sort((a, b) => Number(b.godina) - Number(a.godina));
 
@@ -102,7 +141,7 @@ async function ucitajPdfove() {
 }
 
 function popuniGodineFilter() {
-  const jedinstveneGodine = [...new Set(svaNatjecanja.map(n => n.godina).filter(Boolean))]
+  const jedinstveneGodine = [...new Set(svaNatjecanja.map(n => n.godina).filter(g => /^20\d{2}$/.test(g)))]
     .sort((a, b) => Number(b) - Number(a));
 
   godinaFilter.innerHTML = `<option value="sve">Sve godine</option>` +
@@ -147,8 +186,8 @@ function prikaziNatjecanja() {
         </div>
       </div>
       <div class="item-actions">
-        <a href="${n.zadaciUrl}" target="_blank" rel="noopener" class="btn-link btn-primary">Zadaci</a>
-        ${n.rjesenjaUrl ? `<a href="${n.rjesenjaUrl}" target="_blank" rel="noopener" class="btn-link">Rješenja</a>` : ""}
+        ${n.zadaciUrl ? `<a href="${n.zadaciUrl}" target="_blank" rel="noopener" class="btn-link btn-primary">Zadaci</a>` : ""}
+        ${n.rjesenjaUrl ? `<a href="${n.rjesenjaUrl}" target="_blank" rel="noopener" class="btn-link ${!n.zadaciUrl ? 'btn-primary' : ''}">Rješenja</a>` : ""}
         ${n.transkriptUrl ? `<a href="${n.transkriptUrl}" target="_blank" rel="noopener" class="btn-link">Transkript</a>` : ""}
         ${n.listUrl ? `<a href="${n.listUrl}" target="_blank" rel="noopener" class="btn-link">List za odgovore</a>` : ""}
       </div>

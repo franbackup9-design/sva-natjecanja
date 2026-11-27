@@ -1,0 +1,292 @@
+1rs-bio-drz-2025-list-2.pdf         -> DRŽAVNO NATJECANJE IZ | BIOLOGIJE | 2025. | 3. skupina | (1. razred SŠ) | Zaporka | natjecatelja | SUDIONIK | NATJECANJA U | USPJEH NA | NATJECANJU | ZNANJU | U
+1rs-bio-drz-2025-list.pdf           -> DRŽAVNO NATJECANJE IZ BIOLOGIJE 2025. 3. skupina (1. razred SŠ) | OBRAZAC ZA ODGOVORE | Broj | postignutih | bodova | Zaporka | natjecatelja | I. SKUPINA ZADATA
+1rs-bio-drz-2025-rj.pdf             -> DRŽAVNO NATJECANJE IZ BIOLOGIJE 2025. 3. skupina (1. razred SŠ) | RJEŠENJA PISANE ZADAĆE | 3. SKUPINA (1. razred SŠ) | UKUPNO 50 BODOVA | I. SKUPINA ZADATAKA (u
+1rs-bio-sko-2025-list-2.pdf         -> ŠKOLSKO NATJECANJE IZ | BIOLOGIJE | 2025. | 3. skupina | (1. razred SŠ) | Zaporka | natjecatelja | SUDIONIK | NATJECANJA U | USPJEH NA | NATJECANJU | ZNANJU | U
+1rs-bio-sko-2025-list.pdf           -> ŠKOLSKO NATJECANJE IZ BIOLOGIJE 2025. 3. skupina (1. razred SŠ) | OBRAZAC ZA ODGOVORE | Broj | postignutih | bodova | Zaporka | natjecatelja | Ovdje upisivati s
+1rs-bio-sko-2025-rj.pdf             -> ŠKOLSKO NATJECANJE IZ BIOLOGIJE 2025. 3. skupina (1. razred SŠ) | RJEŠENJA PISANE ZADAĆE | 3. SKUPINA (1. razred SŠ) | UKUPNO 40 BODOVA | I. SKUPINA ZADATAKA (u
+1rs-bio-zup-2025-list-2.pdf         -> ŽUPANIJSKO NATJECANJE IZ | BIOLOGIJE | 2025. | 3. skupina | (1. razred SŠ) | Zaporka | natjecatelja | SUDIONIK | NATJECANJA U | USPJEH NA | NATJECANJU | ZNANJU 
+1rs-bio-zup-2025-list.pdf           -> ŽUPANIJSKO NATJECANJE IZ BIOLOGIJE 2025. 3. skupina (1. razred SŠ) | OBRAZAC ZA ODGOVORE | Broj | postignutih | bodova | Zaporka | natjecatelja | Ovdje upisivat
+1rs-bio-zup-2025-rj-2.pdf           -> ŽUPANIJSKO NATJECANJE IZ BIOLOGIJE 2025. 3. skupina (1. razred SŠ) | RJEŠENJA PISANE ZADAĆE | 3. SKUPINA (1. razred SŠ) | UKUPNO 50 BODOVA | I. SKUPINA ZADATAKA
+1rs-bio-zup-2025-rj.pdf             -> ŽUPANIJSKO NATJECANJE IZ BIOLOGIJE 2025. 3. skupina (1. razred SŠ) | RJEŠENJA PISANE ZADAĆE | 3. SKUPINA (1. razred SŠ) | UKUPNO 50 BODOVA | I. SKUPINA ZADATAKA
+1rs-fiz-drz-2025-prakticni-rj.pdf   -> Srednje škole 1. skupina | RJEŠENJE EKSPERIMENTALNOG ZADATKA | 1) Slaganje pribora | Pribor treba složiti prema slici: | U početnom trenutku loptica treba biti 
+1rs-fiz-drz-2025-prakticni.pdf      -> Srednje škole, 1. skupina | EKSPERIMENTALNI ZADATAK | Određivanje kinetičkog trenja između niti i loptice | (30 bodova) | Pribor: uteg poznate mase m1 pričvršće
+1rs-fiz-drz-2025-rj.pdf             -> Državno natjecanje iz fizike 2024./2025. | Srednje škole – 1. skupina | Rješenja i smjernice za bodovanje | U smjernicama je naveden samo jedan mogući način rje
+1rs-fiz-drz-2025.pdf                -> Državno natjecanje iz fizike 2024./2025. | Srednje škole – 1. skupina | VAŽNO: Tijekom ispita učenici se ne smiju koristiti nikakvim pisanim materijalom (knjiga
+1rs-fiz-sko-2025-rj.pdf             -> Školsko natjecanje iz fizike 2024./2025. | Srednje škole – 1. skupina | Rješenja i smjernice za bodovanje | U smjernicama je naveden samo jedan mogući način rje
+1rs-fiz-sko-2025.pdf                -> Školsko natjecanje iz fizike 2024./2025. | Srednje škole – 1. skupina | VAŽNO: Tijekom ispita učenici se ne smiju koristiti nikakvim pisanim materijalom (knjiga
+1rs-fiz-zup-2025-rj.pdf             -> Županijsko natjecanje iz fizike 2024./2025. | Srednje škole – 1. skupina | Rješenja i smjernice za bodovanje | U smjernicama je naveden samo jedan mogući način 
+1rs-fiz-zup-2025.pdf                -> Županijsko natjecanje iz fizike 2024./2025. | Srednje škole – 1. skupina | VAŽNO: Tijekom ispita učenici se ne smiju koristiti nikakvim pisanim materijalom (knj
+1rs-geo-drz-2025-prakticni-rj.pdf   -> 32. DRŽAVNO NATJECANJE IZ GEOGRAFIJE 2024./2025. | PROVJERA GEOGRAFSKIH VJEŠTINA | 1. RAZRED | Točni odgovori i sustav bodovanja | 1. zadatak: 12 bodova | a) 1,
+1rs-geo-drz-2025-prakticni.pdf      -> 32. DRŽAVNO NATJECANJE IZ GEOGRAFIJE 2024./2025. | 1. RAZRED | PROVJERA GEOGRAFSKIH VJEŠTINA | Zaporka | Broj postignutih bodova | / 30 | Potpis članova Državno
+1rs-geo-drz-2025-rj.pdf             -> 32. DRŽAVNO NATJECANJE IZ GEOGRAFIJE 2024./2025. | 1. RAZRED | TOČNI ODGOVORI | Bodovi Redni broj zadatka, točni odgovori i način bodovanja | Primijeniti dolje 
+1rs-geo-drz-2025.pdf                -> 32. DRŽAVNO NATJECANJE IZ GEOGRAFIJE 2024./2025. GODINE | Razred ili kategorija natjecanja: ispit za 1. razred gimnazije | Zaporka | ___________________________
+1rs-geo-sko-2025-rj.pdf             -> ŠKOLSKA RAZINA NATJECANJA IZ GEOGRAFIJE 2024./2025. | 1. RAZRED | TOČNI ODGOVORI | Bodovanje za sve zadatke: – boduju se samo točni odgovori | – dodatne upute o
+1rs-geo-sko-2025.pdf                -> ŠKOLSKA RAZINA NATJECANJA IZ GEOGRAFIJE 2024./2025. | Razred ili kategorija natjecanja: 1. razred | Zaporka | Broj postignutih bodova | / 50 | Potpis članova Šk
+1rs-geo-zup-2025-rj.pdf             -> ŽUPANIJSKA RAZINA NATJECANJA IZ GEOGRAFIJE 2024./2025. | 1. RAZRED | TOČNI ODGOVORI | Bodovanje za sve zadatke: – boduju se samo točni odgovori | – dodatne uput
+1rs-geo-zup-2025.pdf                -> ŽUPANIJSKA RAZINA NATJECANJA IZ GEOGRAFIJE 2024./2025. | Razred ili kategorija natjecanja: 1. razred | Zaporka | Broj postignutih bodova _____ /50 | Potpis član
+1rs-hrj-drz-2025-rj-2.pdf           -> RJEŠENJA I BODOVANJE UČENIČKIH ODGOVORA — III. RAZRED | XXX. NATJECANJE IZ HRVATSKOGA JEZIKA (2025.) | DRŽAVNA RAZINA | Ispit ima 35 zadataka. Točni odgovori vr
+1rs-hrj-drz-2025-rj-3.pdf           -> RJEŠENJA I BODOVANJE UČENIČKIH ODGOVORA – I. RAZRED | XXX. NATJECANJE IZ HRVATSKOGA JEZIKA (2025.) | DRŽAVNA RAZINA | Ispit ima 36 zadataka. Točni odgovori vrij
+1rs-hrj-drz-2025-rj.pdf             -> RJEŠENJA I BODOVANJE UČENIČKIH ODGOVORA – II. RAZRED | XXX. NATJECANJE IZ HRVATSKOGA JEZIKA (2025.) | DRŽAVNA RAZINA | Ispit ima 20 zadataka. Točni odgovori vri
+1rs-hrj-drz-2025.pdf                -> Razina: državna | Razred: 1. | Sastavljači: Marina Čubrić, Bruno Vojvodić | ZADATAK BODOVI | 1. | 6 | 2. | 4 | 3. | 5 | 4. | 4 | 5. | 6 | 6. | 5 | 7. | 3 | 8. |
+1rs-hrj-sko-2025-rj-2.pdf           -> RJEŠENJA I BODOVANJE UČENIČKIH ODGOVORA — III. RAZRED | XXX. NATJECANJE IZ HRVATSKOGA JEZIKA (2025.) | ŠKOLSKA RAZINA | Ispit ima 14 zadataka. Točni odgovori vr
+1rs-hrj-sko-2025-rj-3.pdf           -> RJEŠENJA I BODOVANJE UČENIČKIH ODGOVORA – I. RAZRED | XXX. NATJECANJE IZ HRVATSKOGA JEZIKA (2025.) | ŠKOLSKA RAZINA | Ispit ima 34 zadatka. Točni odgovori vrije
+1rs-hrj-sko-2025-rj.pdf             -> RJEŠENJA I BODOVANJE UČENIČKIH ODGOVORA – II. RAZRED | XXX. NATJECANJE IZ HRVATSKOGA JEZIKA (2025.) | ŠKOLSKA RAZINA | Ispit ima 27 zadataka. Točni odgovori vri
+1rs-hrj-sko-2025.pdf                -> Razina: školska | Razred: 1. | Sastavljači: Marina Čubrić, Bruno Vojvodić | ZADATAK BODOVI | 1. | 6 | 2. | 5 | 3. | 4 | 4. | 5 | 5. | 5 | 6. | 4 | 7. | 4 | 8. |
+1rs-hrj-zup-2025-rj-2.pdf           -> RJEŠENJA I BODOVANJE UČENIČKIH ODGOVORA — III. RAZRED | XXX. NATJECANJE IZ HRVATSKOGA JEZIKA (2025.) | ŽUPANIJSKA RAZINA | Ispit ima 25 zadataka. Točni odgovori
+1rs-hrj-zup-2025-rj-3.pdf           -> RJEŠENJA I BODOVANJE UČENIČKIH ODGOVORA – I. RAZRED | XXX. NATJECANJE IZ HRVATSKOGA JEZIKA (2025.) | ŽUPANIJSKA RAZINA | Ispit ima 37 zadataka. Točni odgovori v
+1rs-hrj-zup-2025-rj.pdf             -> RJEŠENJA I BODOVANJE UČENIČKIH ODGOVORA – II. RAZRED | XXX. NATJECANJE IZ HRVATSKOGA JEZIKA (2025.) | ŽUPANIJSKA RAZINA | Ispit ima 29 zadataka. Točni odgovori 
+1rs-hrj-zup-2025.pdf                -> Razina: županijska | Razred: 1. | Sastavljači: Marina Čubrić, Bruno Vojvodić | ZADATAK BODOVI | 1. | 6 | 2. | 4 | 3. | 4 | 4. | 5 | 5. | 4 | 6. | 6 | 7. | 3 | 8
+1rs-kem-drz-2025-prakticni-rj.pdf   -> — RJEŠENJA — | Državna razina Natjecanja iz kemije u šk. god. 2024./2025. | Pokus za 1. razred srednje škole | Zaporka: ______________________ | PRIBOR: stalak 
+1rs-kem-drz-2025.pdf                -> Državna razina Natjecanja iz kemije u šk. god. 2024./2025. | Zadatci za 1. razred srednje škole | Zaporka: ______________________ | Zadatak 1. | U 150,00 mL vod
+1rs-kem-sko-2025-rj.pdf             -> — RJEŠE NJ A — | Školska razina Natjecanja iz kemije u šk. god. 2024./2025. | Zadatci za 1. razred srednje škole | Zaporka: ______________________ | 1. | Pozorn
+1rs-kem-zup-2025-rj.pdf             -> — RJEŠE NJ A — | Županijska razina Natjecanja iz kemije u šk. god. 2024./2025. | Zadatci za 1. razred srednje škole | Zaporka: ______________________ | 1. | U n
+1rs-pov-drz-2025-rj.pdf             -> Državno natjecanje iz povijesti | školska godina 2024./2025. | 3. kategorija: 1. razred srednje škole | 8.. svibnja 2025. | RJEŠENJA ZA DRŽAVNO NATJECANJE | 3. 
+1rs-pov-sko-2025-rj.pdf             -> Školsko natjecanje iz povijesti | Školska godina 2024./2025. | Skupina: 3. skupina – 1. razred | 22. siječnja 2025. | RJEŠENJA ZA ŠKOLSKO NATJECANJE | 3. SKUPIN
+2rs-bio-drz-2025-list-2.pdf         -> DRŽAVNO NATJECANJE IZ | BIOLOGIJE | 2025. | 4. skupina | (2. razred SŠ) | Zaporka | natjecatelja | SUDIONIK | NATJECANJA U | USPJEH NA | NATJECANJU | ZNANJU | U
+2rs-bio-drz-2025-list.pdf           -> DRŽAVNO NATJECANJE IZ BIOLOGIJE 2025. 4. skupina (2. razred) | OBRAZAC ZA ODGOVORE | Broj | postignutih | bodova | Zaporka | natjecatelja | I. SKUPINA ZADATAKA 
+2rs-bio-drz-2025-rj.pdf             -> DRŽAVNO NATJECANJE IZ BIOLOGIJE 2025. 4. skupina (2. razred) | RJEŠENJA PISANE ZADAĆE | 4. SKUPINA (2. razred) | UKUPNO 50 BODOVA | I. SKUPINA ZADATAKA (ukupno 
+2rs-bio-sko-2025-list-2.pdf         -> ŠKOLSKO NATJECANJE IZ | BIOLOGIJE | 2025. | 4. skupina | (2. razred SŠ) | Zaporka | natjecatelja | SUDIONIK | NATJECANJA U | USPJEH NA | NATJECANJU | ZNANJU | U
+2rs-bio-sko-2025-list.pdf           -> ŠKOLSKO NATJECANJE IZ BIOLOGIJE 2025. 4. skupina (2. razred) | OBRAZAC ZA ODGOVORE | Broj | postignutih | bodova | Zaporka | natjecatelja | Ovdje upisivati slov
+2rs-bio-sko-2025-rj.pdf             -> ŠKOLSKO NATJECANJE IZ BIOLOGIJE 2025. 4. skupina (2. razred) | RJEŠENJA PISANE ZADAĆE | 4. SKUPINA (2. razred) | UKUPNO 40 BODOVA | I. SKUPINA ZADATAKA (ukupno 
+2rs-bio-zup-2025-list-2.pdf         -> ŽUPANIJSKO NATJECANJE IZ | BIOLOGIJE | 2025. | 4. skupina | (2. razred SŠ) | Zaporka | natjecatelja | SUDIONIK | NATJECANJA U | USPJEH NA | NATJECANJU | ZNANJU 
+2rs-bio-zup-2025-list.pdf           -> ŽUPANIJSKO NATJECANJE IZ BIOLOGIJE 2025. 4. skupina (2. razred SŠ) | OBRAZAC ZA ODGOVORE | Broj | postignutih | bodova | Zaporka | natjecatelja | Ovdje upisivat
+2rs-bio-zup-2025-rj-2.pdf           -> ŽUPANIJSKO NATJECANJE IZ BIOLOGIJE 2025. 4. skupina (2. razred) | RJEŠENJA PISANE ZADAĆE | 4. SKUPINA (2. razred) | UKUPNO 50 BODOVA | I. SKUPINA ZADATAKA (ukup
+2rs-bio-zup-2025-rj.pdf             -> ŽUPANIJSKO NATJECANJE IZ BIOLOGIJE 2025. 4. skupina (2. razred SŠ) | RJEŠENJA PISANE ZADAĆE | 4. SKUPINA (2. razred) | UKUPNO 50 BODOVA | I. SKUPINA ZADATAKA (u
+2rs-eng-drz-2025-list-2.pdf         -> DRŽAVNO NATJECANJE IZ ENGLESKOGA JEZIKA | za 2. razred srednje škole | ŠKOLSKA GODINA 2024./2025. | LIST ZA ODGOVORE (ANSWER SHEET) | Kategorija (zaokružiti): a
+2rs-eng-drz-2025-list.pdf           -> DRŽAVNO NATJECANJE IZ ENGLESKOGA JEZIKA | za 2. razred srednje škole | ŠKOLSKA GODINA 2024./2025. | Kategorija (zaokružiti): a) 2A (gimnazije) | b) 2B (ostale s
+2rs-eng-drz-2025-rj.pdf             -> Državno natjecanje iz engleskoga jezika za 2. razred srednje škole, šk. god. 2024./2025. | KLJUČ ZA ODGOVORE (ANSWER KEY) | TASK 1 – LISTENING | COMPREHENSION |
+2rs-eng-drz-2025-transkript.pdf     -> DRŽAVNO NATJECANJE IZ ENGLESKOGA JEZIKA | za 2. razred srednje škole | ŠKOLSKA GODINA 2024./2025. | SLUŠANJE S RAZUMIJEVANJEM | Good morning. May I have your at
+2rs-eng-drz-2025.pdf                -> DRŽAVNO NATJECANJE IZ ENGLESKOGA JEZIKA | za 2. razred srednje škole | ŠKOLSKA GODINA 2024./2025. | Kategorija (zaokružiti): a) 2A (gimnazije) | b) 2B (ostale s
+2rs-fiz-drz-2025-prakticni-rj.pdf   -> Državno natjecanje iz fizike | Vodice, 5. – 8. svibnja 2025. | Eksperimentalni zadatak – 2. skupina | Mjerenje gustoće tijela – rješenja | Zadatak: S pomoću dos
+2rs-fiz-drz-2025-prakticni.pdf      -> Državno natjecanje iz fizike | Vodice, 5. – 8. svibnja 2025. | Eksperimentalni zadatak – 2. skupina | Mjerenje gustoće tijela | Zadatak: Koristeći se samo dostu
+2rs-fiz-drz-2025-rj.pdf             -> DRŽVNO NATJECANJE IZ FIZIKE – 6. svibnja 2025. | Srednje škole – 2. skupina | Rješenja i smjernice za bodovanje | Upute za bodovanje: Ovdje je prikazan jedan na
+2rs-fiz-drz-2025.pdf                -> DRŽAVNO NATJECANJE IZ FIZIKE – 6. svibnja 2025. | Srednje škole – 2. skupina | VAŽNO: Tijekom ispita ne smijete imati nikakav pisani materijal (knjige, bilježni
+2rs-fiz-sko-2025-rj.pdf             -> ŠKOLSKO NATJECANJE IZ FIZIKE – 17. veljače 2025. | Srednje škole – 2. skupina | Rješenja i smjernice za bodovanje | Upute za bodovanje: Ovdje je prikazan jedan
+2rs-fiz-sko-2025.pdf                -> ŠKOLSKO NATJECANJE IZ FIZIKE – 17. veljače 2025. | Srednje škole – 2. skupina | VAŽNO: Tijekom ispita učenici ne smiju imati nikakav pisani materijal (knjige, b
+2rs-fiz-zup-2025-rj.pdf             -> ŽUPANIJSKO NATJECANJE IZ FIZIKE – 20. ožujka 2025. | Srednje škole – 2. skupina | Rješenja i smjernice za bodovanje | Upute za bodovanje: Ovdje je prikazan jeda
+2rs-fiz-zup-2025.pdf                -> ŽUPANIJSKO NATJECANJE IZ FIZIKE – 20. ožujka 2025. | Srednje škole – 2. skupina | VAŽNO: Tijekom ispita ne smijete imati nikakav pisani materijal (knjige, bilje
+2rs-geo-drz-2025-prakticni-rj.pdf   -> 32. DRŽAVNO NATJECANJE IZ GEOGRAFIJE 2024./2025. | 2. RAZRED | PROVJERA GEOGRAFSKIH VJEŠTINA | TOČNI ODGOVORI I SUSTAV BODOVANJA | Redni | NAČIN BODOVANJA I TOČ
+2rs-geo-drz-2025-prakticni.pdf      -> 32. DRŽAVNO NATJECANJE IZ GEOGRAFIJE 2024./2025. | 2. RAZRED | PROVJERA GEOGRAFSKIH VJEŠTINA | Zaporka | Broj postignutih bodova ___________ / 30 | Potpis člano
+2rs-geo-drz-2025-rj.pdf             -> 32. DRŽAVNO NATJECANJE IZ GEOGRAFIJE 2024./2025. | 2. RAZRED | TOČNI ODGOVORI | Bodovanje za sve zadatke: - boduju se samo točni odgovori | - dodatne upute o bo
+2rs-geo-drz-2025.pdf                -> 32. DRŽAVNO NATJECANJE IZ GEOGRAFIJE 2024./2025. | Razred ili kategorija natjecanja: ispit za 2. razred gimnazije | Zaporka | Broj postignutih bodova ____ / 50 
+2rs-geo-sko-2025-rj.pdf             -> ŠKOLSKA RAZINA NATJECANJA IZ GEOGRAFIJE 2024./2025. | 2. RAZRED | TOČNI ODGOVORI | Bodovanje za sve zadatke: – boduju se samo točni odgovori | – dodatne upute o
+2rs-geo-sko-2025.pdf                -> ŠKOLSKA RAZINA NATJECANJA IZ GEOGRAFIJE | 2024./2025. | Razred ili kategorija natjecanja: ispit za 2. razred | Zaporka | Broj postignutih bodova | / 50 | Potpis
+2rs-geo-zup-2025-rj.pdf             -> ŽUPANIJSKA RAZINA NATJECANJA IZ GEOGRAFIJE 2024./2025. | 2. RAZRED | TOČNI ODGOVORI | Bodovanje za sve zadatke: – boduju se samo točni odgovori | – dodatne uput
+2rs-geo-zup-2025.pdf                -> ŽUPANIJSKA RAZINA NATJECANJA IZ GEOGRAFIJE 2024./2025. | Razred ili kategorija natjecanja: 2. razred | Zaporka | Broj postignutih bodova _____/50 | Potpis člano
+2rs-hrj-drz-2025.pdf                -> Razina: državna | Razred: 2. | Sastavljačice: Iris Mrzljak i Danijela Visković Veršić | ZADATAK | 1. | 2. | 3. | 4. | 5. | 6. | 7. | 8. | 9. | 10. | 11. | 12. |
+2rs-hrj-sko-2025.pdf                -> Razina: školska | Razred: 2. | Sastavljačice: Iris Mrzljak i Danijela Visković Veršić | ZADATAK | 1. | 2. | 3. | 4. | 5. | 6. | 7. | 8. | 9. | 10. | 11. | 12. |
+2rs-hrj-zup-2025.pdf                -> Razina: županijska | Razred: 2. | Sastavljačice: Iris Mrzljak i Danijela Visković Veršić | ZADATAK | 1. | 2. | 3. | 4. | 5. | 6. | 7. | 8. | 9. | 10. | 11. | 12
+2rs-kem-drz-2025-prakticni-rj.pdf   -> — RJEŠE NJ A — | Državna razina Natjecanja iz kemije u šk. god. 2024./2025. | Pokus za 2. razred srednje škole | Zaporka: ______________________ | KEMIJSKA KINE
+2rs-kem-drz-2025-rj.pdf             -> — RJEŠENJA — | Državna razina Natjecanja iz kemije u šk. god. 2024./2025. | Zadatci za 2. razred srednje škole | 1. | Zaporka: ______________________ | 1.1. Pro
+2rs-kem-sko-2025-rj.pdf             -> Školska razina Natjecanja iz kemije u šk. god. 2024./2025. | Zadatci za 2. razred srednje škole | Zaporka: ______________________ | 1. | Želučani sok, koji luče
+2rs-kem-zup-2025-rj.pdf             -> RJEŠENJA | Županijska razina Natjecanja iz kemije u šk. god. 2024./2025. | Zadatci za 2. razred srednje škole | Zaporka: ______________________ | 1. | Limonen j
+2rs-pov-drz-2025-rj.pdf             -> Državno natjecanje iz povijesti | Školska godina 2024./2025. | 4. kategorija: II. (drugi) razred gimnazije | 7. – 9. svibnja 2025. | Odgovori – ispit ima 80 bod
+2rs-pov-drz-2025.pdf                -> Državno natjecanje iz povijesti | Školska godina 2024./2025. | 1. kategorija: VII. (sedmi) razred | 7. - 9. svibanj 2025. | Državno natjecanje iz povijesti – od
+2rs-pov-sko-2025-2.pdf              -> Školsko natjecanje iz povijesti | Školska godina 2024./2025. | 1. kategorija: VII. (sedmi) razred | 22. siječnja 2025. | Školsko natjecanje iz povijesti, 22. si
+2rs-pov-sko-2025.pdf                -> Školsko natjecanje iz povijesti | Školska godina 2024. / 2025. | Skupina: 4. skupina – II. razred gimnazije | 22. siječnja 2025. | Odgovori | 1. Koncept: rad s 
+2rs-pov-zup-2025-rj.pdf             -> Županijsko natjecanje iz povijesti | Školska godina 2024. / 2025. | Skupina: 4. skupina – II. razred gimnazije | 12. ožujka 2025. | Odgovori – ispit ima ukupno 
+2rs-pov-zup-2025.pdf                -> Županijsko natjecanje iz povijesti | Školska godina 2024./2025. | 1. kategorija: VII. (sedmi) razred | 12. ožujka 2025. | Županijsko natjecanje iz povijesti – o
+3rs-bio-drz-2025-list-2.pdf         -> DRŽAVNO NATJECANJE IZ | BIOLOGIJE | 2025. | 5. skupina | (3. razred SŠ) | Zaporka | natjecatelja | SUDIONIK | NATJECANJA U | USPJEH NA | NATJECANJU | ZNANJU | U
+3rs-bio-drz-2025-list.pdf           -> DRŽAVNO NATJECANJE IZ BIOLOGIJE 2025. 5. skupina (3. razred SŠ) | OBRAZAC ZA ODGOVORE | Broj | postignutih | bodova | Zaporka | natjecatelja | I. SKUPINA ZADATA
+3rs-bio-drz-2025-rj.pdf             -> DRŽAVNO NATJECANJE IZ BIOLOGIJE 2025. 5. skupina (3. razred SŠ) | RJEŠENJA PISANE ZADAĆE | 5. SKUPINA (3. razred SŠ) | UKUPNO 50 BODOVA | 1.I. Najveća aktivnost
+3rs-bio-sko-2025-list-2.pdf         -> ŠKOLSKO NATJECANJE IZ | BIOLOGIJE | 2025. | 5. skupina | (3. razred SŠ) | Zaporka | natjecatelja | SUDIONIK | NATJECANJA U | USPJEH NA | NATJECANJU | ZNANJU | U
+3rs-bio-sko-2025-list.pdf           -> ŠKOLSKO NATJECANJE IZ BIOLOGIJE 2025. 5. skupina (3. razred) | OBRAZAC ZA ODGOVORE | UKUPNO 40 BODOVA | Broj | postignutih | bodova | Zaporka | natjecatelja | I
+3rs-bio-sko-2025-rj.pdf             -> ŠKOLSKO NATJECANJE IZ BIOLOGIJE 2025. 5. skupina (3. razred) | RJEŠENJA PISANE ZADAĆE | 5. SKUPINA (3. razred SŠ) | UKUPNO 40 BODOVA | I. SKUPINA ZADATAKA (ukup
+3rs-bio-zup-2025-list-2.pdf         -> ŽUPANIJSKO NATJECANJE IZ BIOLOGIJE 2025. 5. skupina (3. razred SŠ) | OBRAZAC ZA ODGOVORE | Broj | postignutih | bodova | Zaporka | natjecatelja | I. SKUPINA ZAD
+3rs-bio-zup-2025-list.pdf           -> ŽUPANIJSKO NATJECANJE IZ | BIOLOGIJE | 2025. | 5. skupina | (3. razred SŠ) | Zaporka | natjecatelja | SUDIONIK | NATJECANJA U | USPJEH NA | NATJECANJU | ZNANJU 
+3rs-bio-zup-2025-rj-2.pdf           -> ŽUPANIJSKO NATJECANJE IZ BIOLOGIJE 2025. 5. skupina (3. razred SŠ) | RJEŠENJA PISANE ZADAĆE | 5. SKUPINA (3. razred SŠ) | UKUPNO 50 BODOVA | I. SKUPINA ZADATAKA
+3rs-bio-zup-2025-rj.pdf             -> ŽUPANIJSKO NATJECANJE IZ BIOLOGIJE 2025. 5. skupina (3. razred SŠ) | RJEŠENJA PISANE ZADAĆE | 5. SKUPINA (3. razred SŠ) | UKUPNO 50 BODOVA | I. SKUPINA ZADATAKA
+3rs-bio-zup-2025.pdf                -> COPETIZIONE DI BIOLOGIA 2025 – LIVELLO REGIONALE gruppo 5 (classe III SMS) | FOGLIO PER LE RISPOSTE | Codice di | identificazione | Punteggio | 1. | Domanda | 3
+3rs-fiz-drz-2025-2.pdf              -> DRŽAVNO NATJECANJE IZ FIZIKE | 3. SKUPINA ZADATAKA | ŠKOLSKA GODINA 2024./2025. | VAŽNO: Tijekom ispita učenici se ne smiju koris99 nikakvim pisanim materijalom
+3rs-fiz-drz-2025-prakticni-rj.pdf   -> Državno natjecanje iz fizike | 5. do 8. svibnja 2025., Vodice | RJEŠENJE EKSPERIMENTALNOG ZADATKA | 3. skupina | 1. dio | a) Kad se slinky opruga ovjesi, gledaj
+3rs-fiz-drz-2025-prakticni.pdf      -> Državno natjecanje iz fizike | 5. do 8. svibnja 2025., Vodice | EKSPERIMENTALNI ZADATAK | 3. skupina | Zadatak: odredite konstantu elastičnosti ovješene slinky 
+3rs-fiz-drz-2025.pdf                -> DRŽAVNO NATJECANJE IZ FIZIKE | 3. SKUPINA ZADATAKA | ŠKOLSKA GODINA 2024./2025. | Upute za bodovanje: Ovdje je prikazan jedan način rješavanja zadataka. Ako | u
+3rs-fiz-sko-2025-rj.pdf             -> ŠKOLSKO NATJECANJE IZ FIZIKE | 3. SKUPINA ZADATAKA | ŠKOLSKA GODINA 2024./2025. | RJEŠENJA
+3rs-fiz-sko-2025.pdf                -> ŠKOLSKO NATJECANJE IZ FIZIKE | 3. SKUPINA ZADATAKA | ŠKOLSKA GODINA 2024./2025. | VAŽNO: Tijekom ispita učenici se ne smiju koristiti nikakvim pisanim materijal
+3rs-fiz-zup-2025-2.pdf              -> ŽUPANIJSKO NATJECANJE IZ FIZIKE | 3. SKUPINA ZADATAKA | ŠKOLSKA GODINA 2024./2025. | VAŽNO: Tijekom ispita učenici se ne smiju koris99 nikakvim pisanim materija
+3rs-fiz-zup-2025.pdf                -> ŽUPANIJSKO NATJECANJE IZ FIZIKE | 3. SKUPINA ZADATAKA | ŠKOLSKA GODINA 2024./2025. | Upute za bodovanje: Ovdje je prikazan jedan način rješavanja zadataka. Ako 
+3rs-geo-drz-2025-prakticni-rj.pdf   -> 32. DRŽAVNO NATJECANJE IZ GEOGRAFIJE 2024./2025. | 3. razred | Provjera geografskih vještina | Točni odgovori i sustav bodovanja | 2 | 1. zadatak | 0,5 bodova –
+3rs-geo-drz-2025-prakticni.pdf      -> 32. DRŽAVNO NATJECANJE IZ GEOGRAFIJE 2024./2025. | 3. RAZRED | PROVJERA GEOGRAFSKIH VJEŠTINA | Zaporka | _______________________________________________ | Broj 
+3rs-geo-drz-2025-rj.pdf             -> 32. DRŽAVNO NATJECANJE IZ GEOGRAFIJE 2024./2025. | 3. RAZRED | TOČNI ODGOVORI | Bodovanje za sve zadatke: – boduju se samo točni odgovori | – dodatne upute o bo
+3rs-geo-drz-2025.pdf                -> 32. DRŽAVNO NATJECANJE IZ GEOGRAFIJE 2024./2025. | Razred ili kategorija natjecanja: 3. razred gimnazije | Zaporka | Broj postignutih bodova | / 50 | Potpis čla
+3rs-geo-sko-2025-rj.pdf             -> ŠKOLSKA RAZINA NATJECANJA IZ GEOGRAFIJE 2024./2025. | 3. RAZRED | TOČNI ODGOVORI | Bodovanje za sve zadatke: – boduju se samo točni odgovori | – dodatne upute o
+3rs-geo-sko-2025.pdf                -> ŠKOLSKA RAZINA NATJECANJA IZ GEOGRAFIJE 2024./2025. | Razred ili kategorija natjecanja: 3. razred | Zaporka | Broj postignutih bodova | / 50 | Potpis članova Šk
+3rs-geo-zup-2025-rj.pdf             -> ŽUPANIJSKA RAZINA NATJECANJA IZ GEOGRAFIJE 2024./2025. | 3. RAZRED | TOČNI ODGOVORI | Bodovanje za sve zadatke: – boduju se samo točni odgovori | – dodatne uput
+3rs-geo-zup-2025.pdf                -> ŽUPANIJSKA RAZINA NATJECANJA IZ GEOGRAFIJE 2024./2025. | Razred ili kategorija natjecanja: 3. razred | Zaporka | Broj postignutih bodova | / 50 | Potpis članova
+3rs-hrj-drz-2025.pdf                -> Razina: državna | Razred: 3. | Sastavljači: Sunčica Podoreški i Nikolina Mandić Matijević | zadatak | bodovi | 1. | 6 | 2. | 1 | 3. | 1 | 4. | 2 | 5. | 3 | 6. |
+3rs-hrj-sko-2025.pdf                -> Razina: školska | Razred: 3. | Sastavljači: Sunčica Podoreški i Nikolina Mandić Matijević | ZADATAK BODOVI | 1. | 6 | 2. | 1 | 3. | 1 | 4. | 1 | 5. | 1 | 6. | 1
+3rs-hrj-zup-2025.pdf                -> Razina: županijska | Razred: 3. | Sastavljači: Sunčica Podoreški i Nikolina Mandić Matijević | zadatak | bodovi | 1. | 6 | 2. | 3 | 3. | 1 | 4. | 1 | 5. | 4 | 6
+3rs-kem-drz-2025-prakticni-rj.pdf   -> — RJEŠE NJ A — | Državna razina Natjecanja iz kemije u šk. god. 2024./2025. | Pokus za 3. razred srednje škole | 1. | Zaporka: ______________________ | Izvedi o
+3rs-kem-drz-2025-rj.pdf             -> — RJ EŠ EN JA — | Državna razina Natjecanja iz kemije u šk. god. 2024./2025. | Zadatci za 3. razred srednje škole | 1. | Zaporka: | Za svaku od navedenih reakci
+3rs-kem-sko-2025-rj.pdf             -> — RJEŠE NJ A — | Školska razina Natjecanja iz kemije u šk. god. 2024./2025. | Zadatci za 3. razred srednje škole | 1. | Zaporka: ______________________ | Jednad
+3rs-kem-zup-2025-rj.pdf             -> - RJEŠE NJ A Županijsko natjecanje iz kemije u šk. god. 2024./2025. | Zadaci za 3. razred srednje škole | 1. | Zaporka: ______________________ | Octena kiselina
+3rs-pov-drz-2025-rj.pdf             -> Državno natjecanje iz povijesti | Školska godina 2024./2025. | 2. kategorija: VIII. (osmi) razred | 7. – 9. svibnja 2025. | Rješenja testa za državno natjecanje
+3rs-pov-drz-2025.pdf                -> Državno natjecanje iz povijesti | Školska godina 2024./2025. | 5. kategorija: III. (treći) razred | 7. – 9. svibnja 2025. | Napomena | Kod nekih pitanja više je
+3rs-pov-sko-2025-rj.pdf             -> Školsko natjecanje iz povijesti | Školska godina 2024./2025. | Skupina: 5. skupina – III. razred srednje škole | 22. siječnja 2025. | RJEŠENJA TESTA ZA ŠKOLSKO 
+3rs-pov-zup-2025-rj-2.pdf           -> Županijsko natjecanje iz povijesti | Školska godina 2024./2025. | 2. kategorija: VIII. (osmi) razred | 12. ožujka 2025. | Rješenja ispita za županijsko natjecan
+3rs-pov-zup-2025-rj.pdf             -> Županijsko natjecanje iz povijesti | Školska godina 2024./2025. | 5. skupina: III. razred srednje škole 12. ožujka 2025. | RJEŠENJA TESTA ZA ŽUPANIJSKO NATJECAN
+4rs-bio-drz-2025-list-2.pdf         -> DRŽAVNO NATJECANJE IZ | BIOLOGIJE | 2025. | 6. skupina | (4. razred SŠ) | Zaporka | natjecatelja | SUDIONIK | NATJECANJA U | USPJEH NA | NATJECANJU | ZNANJU | U
+4rs-bio-drz-2025-list.pdf           -> DRŽAVNO NATJECANJE IZ BIOLOGIJE 2025. 6. skupina (4. razred) | OBRAZAC ZA ODGOVORE | Broj | postignutih | bodova | Zaporka | natjecatelja | UKUPNO 50 BODOVA | K
+4rs-bio-drz-2025-rj.pdf             -> DRŽAVNO NATJECANJE IZ BIOLOGIJE 2025. 6. skupina (4. razred) | RJEŠENJA PISANE ZADAĆE | 6. SKUPINA (4. razred) | UKUPNO 50 BODOVA | KORAK 1. | KORAK 2. | KORAK 
+4rs-bio-sko-2025-list-2.pdf         -> ŠKOLSKO NATJECANJE IZ | BIOLOGIJE | 2025. | 6. skupina | (4. razred SŠ) | Zaporka | natjecatelja | SUDIONIK | NATJECANJA U | USPJEH NA | NATJECANJU | ZNANJU | U
+4rs-bio-sko-2025-list.pdf           -> ŠKOLSKO NATJECANJE IZ BIOLOGIJE 2025. 6. skupina (4. razred SŠ) | OBRAZAC ZA ODGOVORE | Broj | postignutih | bodova | Zaporka | natjecatelja | Ovdje upisivati s
+4rs-bio-sko-2025-rj.pdf             -> ŠKOLSKO NATJECANJE IZ BIOLOGIJE 2025. 6. skupina (4. razred) | RJEŠENJA PISANE ZADAĆE | 6. SKUPINA (4. razred) | UKUPNO 40 BODOVA | I. SKUPINA ZADATAKA (ukupno 
+4rs-bio-zup-2025-list-2.pdf         -> ŽUPANIJSKO NATJECANJE IZ | BIOLOGIJE | 2025. | 6. skupina | (4. razred SŠ) | Zaporka | natjecatelja | SUDIONIK | NATJECANJA U | USPJEH NA | NATJECANJU | ZNANJU 
+4rs-bio-zup-2025-list.pdf           -> ŽUPANIJSKO NATJECANJE IZ BIOLOGIJE 2025. 6. skupina (4. razred SŠ) | OBRAZAC ZA ODGOVORE | Broj | postignutih | bodova | Zaporka | natjecatelja | Ovdje upisivat
+4rs-bio-zup-2025-rj-2.pdf           -> ŽUPANIJSKO NATJECANJE IZ BIOLOGIJE 2025. 6. skupina (4. razred SŠ) | RJEŠENJA PISANE ZADAĆE | 6. SKUPINA (4. razred) | UKUPNO 50 BODOVA | I. SKUPINA ZADATAKA (u
+4rs-bio-zup-2025-rj.pdf             -> ŽUPANIJSKO NATJECANJE IZ BIOLOGIJE 2025. 6. skupina (4. razred) | RJEŠENJA PISANE ZADAĆE | 6. SKUPINA (4. razred) | UKUPNO 50 BODOVA | I. SKUPINA ZADATAKA (ukup
+4rs-eng-drz-2025-list-2.pdf         -> DRŽAVNO NATJECANJE IZ ENGLESKOGA JEZIKA | za 4. razred srednje škole | ŠKOLSKA GODINA 2024./2025. | LIST ZA ODGOVORE (ANSWER SHEET) | Kategorija (zaokružiti): a
+4rs-eng-drz-2025-list.pdf           -> DRŽAVNO NATJECANJE IZ ENGLESKOGA JEZIKA | za 4. razred srednje škole | ŠKOLSKA GODINA 2024./2025. | Kategorija (zaokružiti): a) 4A (gimnazije) | b) 4B (ostale s
+4rs-eng-drz-2025-rj.pdf             -> Državno natjecanje iz engleskoga jezika za 4. razred srednje škole, šk. god. 2024./2025. | KLJUČ ZA ODGOVORE (ANSWER KEY) | TASK 1 – LISTENING | COMPREHENSION |
+4rs-eng-drz-2025-transkript.pdf     -> DRŽAVNO NATJECANJE U ZNANJU ENGLESKOG JEZIKA | za 4. razrede srednjih škola | SLUŠANJE S RAZUMIJEVANJEM | Good morning. May I have your attention, please? This 
+4rs-eng-drz-2025.pdf                -> DRŽAVNO NATJECANJE IZ ENGLESKOGA JEZIKA | za 4. razred srednje škole | ŠKOLSKA GODINA 2024./2025. | Kategorija (zaokružiti): a) 4A (gimnazije) | b) 4B (ostale s
+4rs-fiz-drz-2025-prakticni-rj.pdf   -> DRŽAVNA SMOTRA I NATJECANJE MLADIH FIZIČARA | Vodice, 4. – 8. svibnja 2025. | Srednje škole – 4. skupina | Eksperimentalni zadatak – rješenje | 1. S pomoću nave
+4rs-fiz-drz-2025-prakticni.pdf      -> DRŽAVNA SMOTRA I NATJECANJE MLADIH FIZIČARA | Vodice, 5. – 8. svibnja 2025. | Srednje škole – 4. skupina | EKSPERIMENTALNI ZADATAK | Pribor: | - 2 žele bombona 
+4rs-fiz-drz-2025-rj.pdf             -> Državno natjecanje iz fizike, šk. god. 2024./2025. | Srednja škola, 4. skupina | (6. 5. 2025.) | RJEŠENJA I SMJERNICE ZA BODOVANJE | Ovdje je prikazan jedan nač
+4rs-fiz-drz-2025.pdf                -> Državno natjecanje iz fizike, šk. god. 2024./2025. | Srednja škola, 4. skupina | (6. 5. 2025.) | ZADATCI | VAŽNO: Tijekom ispita učenici ne smiju imati nikakav 
+4rs-fiz-sko-2025-rj.pdf             -> Školsko natjecanje iz fizike, šk. god. 2024./2025. | Srednja škola, 4. skupina | (17. 2. 2025.) | RJEŠENJA I SMJERNICE ZA BODOVANJE | Ovdje je prikazan jedan na
+4rs-fiz-sko-2025.pdf                -> Školsko natjecanje iz fizike, šk. god. 2024./2025. | Srednja škola, 4. skupina | (17. 2. 2025.) | ZADATCI | VAŽNO: Tijekom ispita učenici ne smiju imati nikakav
+4rs-fiz-zup-2025-rj.pdf             -> Školsko natjecanje iz fizike, šk. god. 2024./2025. | Srednja škola, 4. skupina | (20. 3. 2025.) | RJEŠENJA I SMJERNICE ZA BODOVANJE | Ovdje je prikazan jedan na
+4rs-fiz-zup-2025.pdf                -> Županijsko natjecanje iz fizike, šk. god. 2024./2025. | Srednja škola, 4. skupina | (20. 3. 2025.) | ZADATCI | VAŽNO: Tijekom ispita učenici ne smiju imati nika
+4rs-geo-drz-2025-prakticni-rj.pdf   -> 32. DRŽAVNO NATJECANJE IZ GEOGRAFIJE 2024./2025. | 4. razred | Provjera geografskih vještina | Točni odgovori i sustav bodovanja | 1. zadatak: 5 bodova | 1 bod 
+4rs-geo-drz-2025-prakticni.pdf      -> 32. DRŽAVNO NATJECANJE IZ GEOGRAFIJE 2024./2025. | 4. RAZRED | PROVJERA GEOGRAFSKIH VJEŠTINA | Zaporka | Broj postignutih bodova ___________/ 30 | Potpis članov
+4rs-geo-drz-2025-rj.pdf             -> 32. DRŽAVNO NATJECANJE IZ GEOGRAFIJE 2024./2025. | 4. RAZRED | TOČNI ODGOVORI | Bodovanje za sve zadatke: – boduju se samo točni odgovori | – dodatne upute o bo
+4rs-geo-drz-2025.pdf                -> 32. DRŽAVNO NATJECANJE IZ GEOGRAFIJE 2024./2025. | Razred ili kategorija natjecanja: 4. razred gimnazije | Zaporka | Broj postignutih bodova _______ / 50 | Potp
+4rs-geo-sko-2025-rj.pdf             -> ŠKOLSKA RAZINA NATJECANJA IZ GEOGRAFIJE 2024./2025. | 4. RAZRED | TOČNI ODGOVORI | Bodovanje za sve zadatke: – boduju se samo točni odgovori | – dodatne upute o
+4rs-geo-sko-2025.pdf                -> ŠKOLSKA RAZINA NATJECANJA IZ GEOGRAFIJE 2024./2025. | Razred ili kategorija natjecanja: ispit za 4. razred | Zaporka | Broj postignutih bodova _______ / 50 | Po
+4rs-geo-zup-2025-rj.pdf             -> ŽUPANIJSKA RAZINA NATJECANJA IZ GEOGRAFIJE 2024./2025. | 4. RAZRED | TOČNI ODGOVORI | Bodovanje za sve zadatke: – boduju se samo točni odgovori | – dodatne uput
+4rs-geo-zup-2025.pdf                -> ŽUPANIJSKA RAZINA NATJECANJA IZ GEOGRAFIJE 2024./2025. | Razred ili kategorija natjecanja: ispit za 4. razred | Zaporka | Broj postignutih bodova _______ / 50 |
+4rs-hrj-drz-2025-rj.pdf             -> RJEŠENJA I BODOVANJE UČENIČKIH ODGOVORA – 4. RAZRED | XXX. NATJECANJE IZ HRVATSKOGA JEZIKA (2025.) – DRŽAVNA RAZINA | Ispit ima 35 zadataka. Točni odgovori vrij
+4rs-hrj-sko-2025-rj.pdf             -> RJEŠENJA I BODOVANJE UČENIČKIH ODGOVORA – 4. RAZRED | XXX. NATJECANJE IZ HRVATSKOGA JEZIKA (2025.) – ŠKOLSKA RAZINA | Ispit ima 25 zadataka. Točni odgovori vrij
+4rs-hrj-sko-2025.pdf                -> Razina: školska | Razred: četvrti | Sastavljačice: Iva Polić i Gordana Zurak | ZADATAK | BODOVI | 1. | 2. | 3. | 4. | 5. | 6. | 7. | 8. | 9. | 10. | 11. | 12. |
+4rs-hrj-zup-2025-rj.pdf             -> RJEŠENJA I BODOVANJE UČENIČKIH ODGOVORA – 4. RAZRED | XXX. NATJECANJE IZ HRVATSKOGA JEZIKA (2025.) – ŽUPANIJSKA RAZINA | Ispit ima 31 zadatak. Točni odgovori vr
+4rs-hrj-zup-2025.pdf                -> Razina: županijska | Razred: četvrti | Sastavljačice: Iva Polić i Gordana Zurak | ZADATAK | BODOVI | 1. | 2. | 3. | 4. | 5. | 6. | 7. | 8. | 9. | 10. | 11. | 12
+4rs-kem-drz-2025-prakticni-rj.pdf   -> — RJEŠE NJ A — | Državno natjecanje iz kemije u šk. god. 2024./2025. | pokus za 4. razred srednje škole | Zaporka: _________________ | ZADATAK 1. Amini su organ
+4rs-kem-drz-2025-rj.pdf             -> — RJEŠE NJ A — | Državna razina Natjecanja iz kemije u šk. god. 2024./2025. | Zadatci za 4. razred srednje škole | Zaporka: ______________________ | 1. | U nave
+4rs-kem-sko-2025-rj.pdf             -> — RJEŠE NJ A — | Školska razina Natjecanja iz kemije u šk. god. 2024./2025. | Zadatci za 4. razred srednje škole | Zaporka: ______________________ | 1. | U nave
+4rs-kem-zup-2025-rj.pdf             -> Županijska razina Natjecanja iz kemije u šk. god. 2024./2025. | Zadatci za 4. razred srednje škole | 1. | Zaporka: ______________________ | Sljedeće tvrdnje ozn
+4rs-pov-drz-2025-rj.pdf             -> Državno natjecanje iz povijesti | Školska godina 2024./2025. | 6. kategorija: IV. (četvrti) razred | 7. – 9. svibnja 2025. | RJEŠENJA TESTA ZA DRŽAVNO NATJECANJ
+4rs-pov-sko-2025-rj.pdf             -> Školsko natjecanje iz povijesti | Školska godina 2024./2025. | 6. skupina: IV. (četvrti) razred srednje škole | 22. siječnja 2025. | RJEŠENJA TESTA ZA ŠKOLSKO N
+4rs-pov-zup-2025-rj-2.pdf           -> Županijsko natjecanje iz povijesti | Školska godina 2024./2025. | 6. skupina: IV. (četvrti) razred srednje škole | 12. ožujka 2025. | RJEŠENJA TESTA ZA ŽUPANIJS
+5r-geo-drz-2025-prakticni-rj.pdf    -> 32. DRŽAVNO NATJECANJE IZ GEOGRAFIJE 2024./2025. | 5. RAZRED | PROVJERA GEOGRAFSKIH VJEŠTINA | Točni odgovori i sustav bodovanja | 1. zadatak: 2 boda | 1 bod – 
+5r-geo-drz-2025-prakticni.pdf       -> 32. DRŽAVNO NATJECANJE IZ GEOGRAFIJE 2024./2025. | 5. RAZRED | PROVJERA GEOGRAFSKIH VJEŠTINA | Zaporka | _____________________________ | Broj postignutih bodova
+5r-geo-drz-2025-rj.pdf              -> 32. DRŽAVNO NATJECANJE IZ GEOGRAFIJE 2024./2025. | 5. RAZRED | TOČNI ODGOVORI | Bodovanje za sve zadatke: – boduju se samo točni odgovori | – dodatne upute o bo
+5r-geo-drz-2025.pdf                 -> 32. DRŽAVNO NATJECANJE IZ GEOGRAFIJE 2024./2025. | Razred ili kategorija natjecanja: ispit za 5. razred | Zaporka | _____________________________________ | Broj
+5r-geo-sko-2025-rj.pdf              -> ŠKOLSKA RAZINA NATJECANJA IZ GEOGRAFIJE 2024./2025. | 5. RAZRED | TOČNI ODGOVORI | Bodovanje za sve zadatke: – boduju se samo točni odgovori | – dodatne upute o
+5r-geo-sko-2025.pdf                 -> ŠKOLSKA RAZINA NATJECANJA IZ GEOGRAFIJE 2024./2025. | Razred ili kategorija natjecanja: 5. razred | Zaporka | _____________________________________ | Broj posti
+5r-geo-zup-2025-rj.pdf              -> ŽUPANIJSKA RAZINA NATJECANJA IZ GEOGRAFIJE 2024./2025. | 5. RAZRED | TOČNI ODGOVORI | Bodovanje za sve zadatke: – boduju se samo točni odgovori. | – dodatne upu
+5r-geo-zup-2025.pdf                 -> ŽUPANIJSKA RAZINA NATJECANJA IZ GEOGRAFIJE 2024./2025. | Razred ili kategorija natjecanja: ispit za 5. razred | Zaporka | _____________________________________ 
+5r-inf-drz-2025.pdf                 -> Ukupan broj bodova: | 9. travnja 2025. od 9:00 do 10:30 | Državno natjecanje / Digitalne kompetencije | 5. razred osnovne škole | Ime i prezime | Škola | Razred
+5r-inf-sko-2025.pdf                 -> Ukupan broj bodova: | 11. veljače 2025. od 14:30 do 15:30 | Školsko natjecanje / Digitalne kompetencije | 5. razred osnovne škole | Ime i prezime | Škola | Razr
+5r-inf-zup-2025.pdf                 -> Ukupan broj bodova: | 10. ožujka 2025. od 14:30 do 15:30 | Županijsko natjecanje / Digitalne kompetencije | 5. razred osnovne škole | Ime i prezime | Škola | Ra
+6r-geo-drz-2025-prakticni-rj.pdf    -> 32. DRŽAVNO NATJECANJE IZ GEOGRAFIJE 2024./2025. | 6. RAZRED | PROVJERA GEOGRAFSKIH VJEŠTINA | TOČNI ODGOVORI I SUSTAV BODOVANJA | Primjenjuje se za sve zadatke
+6r-geo-drz-2025-prakticni.pdf       -> 32. DRŽAVNO NATJECANJE IZ GEOGRAFIJE 2024./2025. | 6. RAZRED | PROVJERA GEOGRAFSKIH VJEŠTINA | Zaporka _____________________________ | Broj postignutih bodova _
+6r-geo-drz-2025-rj.pdf              -> 32. DRŽAVNO NATJECANJE IZ GEOGRAFIJE 2024./2025. | 6. RAZRED | TOČNI ODGOVORI | Bodovanje za sve zadatke: – boduju se samo točni odgovori (čestice) | – dodatne 
+6r-geo-drz-2025.pdf                 -> 32. DRŽAVNO NATJECANJE IZ GEOGRAFIJE 2024./2025. | Razred ili kategorija natjecanja: ispit za 6. razred | Zaporka | Broj postignutih bodova | / 50 | Potpis član
+6r-geo-sko-2025-rj.pdf              -> ŠKOLSKA RAZINA NATJECANJA IZ GEOGRAFIJE 2024./2025. | 6. RAZRED | TOČNI ODGOVORI | Bodovanje za sve zadatke: – boduju se samo točni odgovori (čestice) | – dodat
+6r-geo-sko-2025.pdf                 -> ŠKOLSKA RAZINA NATJECANJA IZ GEOGRAFIJE 2024./2025. | Razred ili kategorija natjecanja: ispit za 6. razred | Zaporka | Broj postignutih bodova | / 50 | Potpis č
+6r-geo-zup-2025-rj.pdf              -> ŽUPANIJSKA RAZINA NATJECANJA IZ GEOGRAFIJE 2024./2025. | 6. RAZRED | TOČNI ODGOVORI | Bodovanje za sve zadatke: – boduju se samo točni odgovori (čestice) | – do
+6r-geo-zup-2025.pdf                 -> ŽUPANIJSKA RAZINA NATJECANJA IZ GEOGRAFIJE 2024./2025. | Razred ili kategorija natjecanja: ispit za 6. razred | Zaporka | Broj postignutih bodova | / 50 | Potpi
+6r-inf-drz-2025.pdf                 -> Ukupan broj bodova: | 9. travnja 2025. od 9:00 do 10:30 | Državno natjecanje / Digitalne kompetencije | 6. razred osnovne škole | Ime i prezime | Škola | Razred
+6r-inf-sko-2025.pdf                 -> Ukupan broj bodova: | 11. veljače 2025. od 14:30 do 15:30 | Školsko natjecanje / Digitalne kompetencije | 6. razred osnovne škole | Ime i prezime | Škola | Razr
+6r-inf-zup-2025.pdf                 -> Ukupan broj bodova: | 10. ožujka 2025. od 14:30 do 15:30 | Županijsko natjecanje / Digitalne kompetencije | 6. razred osnovne škole | Ime i prezime | Škola | Ra
+7r-bio-drz-2025-list-2.pdf          -> DRŽAVNO NATJECANJE IZ | BIOLOGIJE 2025. | 1. skupina | (7. razred OŠ) | Zaporka | natjecatelja | USPJEH NA | NATJECANJU | Ukupan mogući broj | bodova | Broj pos
+7r-bio-drz-2025-list.pdf            -> DRŽAVNO NATJECANJE IZ BIOLOGIJE 2025. 1. skupina (7. razred) | OBRAZAC ZA ODGOVORE | Broj | postignutih | bodova | Zaporka | natjecatelja | I. | SKUPINA ZADATAK
+7r-bio-drz-2025-rj.pdf              -> DRŽAVNO NATJECANJE IZ BIOLOGIJE 2025. 1. skupina (7. razred) | RJEŠENJA PISANE ZADAĆE | UKUPNO 50 BODOVA | I. SKUPINA ZADATAKA (ukupno bodova: 16,5 ) | Zadatci 
+7r-bio-sko-2025-list-2.pdf          -> ŠKOLSKO NATJECANJE IZ | BIOLOGIJE | 2025. | 1. skupina | (7. razred OŠ) | Zaporka | natjecatelja | SUDIONIK | NATJECANJA U | USPJEH NA | NATJECANJU | ZNANJU | U
+7r-bio-sko-2025-list.pdf            -> ŠKOLSKO NATJECANJE IZ BIOLOGIJE 2025. 1. skupina (7. razred) | OBRAZAC ZA ODGOVORE | Broj | postignutih | bodova | Zaporka | natjecatelja | Ovdje upisivati slov
+7r-bio-sko-2025-rj.pdf              -> ŠKOLSKO NATJECANJE IZ BIOLOGIJE 2025. 1. skupina (7. razred) | RJEŠENJA PISANE ZADAĆE | 1. SKUPINA (7. razred) | UKUPNO 40 BODOVA | I. SKUPINA ZADATAKA (ukupno 
+7r-bio-zup-2025-list-2.pdf          -> ŽUPANIJSKO NATJECANJE IZ | BIOLOGIJE | 2025. | 1. skupina | (7. razred OŠ) | Zaporka | natjecatelja | SUDIONIK | NATJECANJA U | USPJEH NA | NATJECANJU | ZNANJU 
+7r-bio-zup-2025-list.pdf            -> ŽUPANIJSKO NATJECANJE IZ BIOLOGIJE 2025. 1. skupina (7. razred OŠ) | OBRAZAC ZA ODGOVORE | Broj | postignutih | bodova | Zaporka | natjecatelja | Ovdje upisivat
+7r-bio-zup-2025-rj.pdf              -> ŽUPANIJSKO NATJECANJE IZ BIOLOGIJE 2025. 1. skupina (7. razred OŠ) | RJEŠENJA PISANE ZADAĆE | 1. SKUPINA (7. razred) | UKUPNO 50 BODOVA | I. SKUPINA ZADATAKA (u
+7r-eng-drz-2025-list-2.pdf          -> DRŽAVNO NATJECANJE IZ ENGLESKOGA JEZIKA | za 7. razred osnovne škole | ŠKOLSKA GODINA 2024./2025. | LIST ZA ODGOVORE (ANSWER SHEET) | Kategorija (zaokružiti): a
+7r-eng-drz-2025-list.pdf            -> DRŽAVNO NATJECANJE IZ ENGLESKOGA JEZIKA | za 7. razred osnovne škole | ŠKOLSKA GODINA 2024./2025. | Kategorija (zaokružiti): a) 7. razred | b) Lista C | Zaporka
+7r-eng-drz-2025-rj.pdf              -> Državno natjecanje iz engleskoga jezika za 7. razred osnovne škole, šk. god. 2024./2025. | KLJUČ ZA ODGOVORE (ANSWER KEY) | TASK 1 – LISTENING | COMPREHENSION |
+7r-eng-drz-2025-transkript.pdf      -> DRŽAVNO NATJECANJE IZ ENGLESKOGA JEZIKA | za 7. razred osnovne škole | ŠKOLSKA GODINA 2024./2025. | SLUŠANJE S RAZUMIJEVANJEM | Good morning. May I have your at
+7r-eng-drz-2025.pdf                 -> DRŽAVNO NATJECANJE IZ ENGLESKOGA JEZIKA | za 7. razred osnovne škole | ŠKOLSKA GODINA 2024./2025. | Kategorija (zaokružiti): a) 7. razred | b) Lista C | Zaporka
+7r-geo-drz-2025-prakticni-rj.pdf    -> 32. DRŽAVNO NATJECANJE IZ GEOGRAFIJE 2024./2025. | 7. RAZRED | PROVJERA GEOGRAFSKIH VJEŠTINA | Točni odgovori i sustav bodovanja | 4 | 1. zadatak | 1 bod (0,5 |
+7r-geo-drz-2025-prakticni.pdf       -> 32. DRŽAVNO NATJECANJE IZ GEOGRAFIJE 2024./2025. | 7. RAZRED | PROVJERA GEOGRAFSKIH VJEŠTINA | Zaporka | Broj postignutih bodova ____ / 30 | Potpis članova Drža
+7r-geo-drz-2025-rj.pdf              -> 32. DRŽAVNO NATJECANJE IZ GEOGRAFIJE 2024./2025. GODINE | 7. RAZRED | TOČNI ODGOVORI | Bodovanje za sve zadatke: – boduju se samo točni odgovori | – dodatne upu
+7r-geo-drz-2025.pdf                 -> 32. DRŽAVNO NATJECANJE IZ GEOGRAFIJE 2024./2025. GODINE | Razred ili kategorija natjecanja: ispit za 7. razred | Zaporka | ___________________________________ |
+7r-geo-sko-2025-rj.pdf              -> ŠKOLSKA RAZINA NATJECANJA IZ GEOGRAFIJE 2024./2025. | 7. RAZRED | TOČNI ODGOVORI | Bodovanje za sve zadatke: | – boduju se samo točni odgovori | – dodatne upute
+7r-geo-sko-2025.pdf                 -> ŠKOLSKA RAZINA NATJECANJA IZ GEOGRAFIJE 2024./2025. | Razred ili kategorija natjecanja: 7. razred | Zaporka | ___________________ | Broj postignutih bodova ____
+7r-geo-zup-2025-rj.pdf              -> ŽUPANIJSKA RAZINA NATJECANJA IZ GEOGRAFIJE 2024./2025. | 7. RAZRED | TOČNI ODGOVORI | Bodovanje za sve zadatke: – boduju se samo točni odgovori | – dodatne uput
+7r-geo-zup-2025.pdf                 -> ŽUPANIJSKA RAZINA NATJECANJA IZ GEOGRAFIJE 2024./2025. | Razred ili kategorija natjecanja: ispit za 7. razred | Zaporka | ___________________________________ | 
+7r-hrj-drz-2025-rj.pdf              -> RJEŠENJA I BODOVANJE UČENIČKIH ODGOVORA – VII. RAZRED | XXX. NATJECANJE IZ HRVATSKOGA JEZIKA (2025.) | DRŽAVNA RAZINA | Ispit ima 38 zadataka. Točni odgovori vr
+7r-hrj-drz-2025.pdf                 -> Razina: državna | Razred: 7. | Sastavljačice: Ivančica Šebalj, Ina Randić Đorđević | ZADATAK BODOVI | 1. | 2 | 2. | 6 | 3. | 2 | 4. | 1 | 5. | 4 | 6. | 3 | 7. |
+7r-hrj-sko-2025-rj.pdf              -> RJEŠENJA I BODOVANJE UČENIČKIH ODGOVORA – VII. RAZRED | XXX. NATJECANJE IZ HRVATSKOGA JEZIKA (2025.) | ŠKOLSKA RAZINA | Ispit ima 30 zadataka. Točni odgovori vr
+7r-hrj-sko-2025.pdf                 -> Razina: školska | Razred: 7. | Sastavljačice: Ivančica Šebalj, Ina Randić Đorđević | ZADATAK BODOVI | 1. | 1 | 2. | 1 | 3. | 1 | 4. | 4 | 5. | 4 | 6. | 3 | 7. |
+7r-hrj-zup-2025-rj.pdf              -> RJEŠENJA I BODOVANJE UČENIČKIH ODGOVORA – VII. RAZRED | XXX. NATJECANJE IZ HRVATSKOGA JEZIKA (2025.) | ŽUPANIJSKA RAZINA | Ispit ima 32 zadatka. Točni odgovori 
+7r-hrj-zup-2025.pdf                 -> Razina: županijska | Razred: 7. | Sastavljačice: Ivančica Šebalj, Ina Randić Đorđević | ZADATAK BODOVI | 1. | 1 | 2. | 1 | 3. | 4 | 4. | 2 | 5. | 6 | 6. | 6 | 7
+7r-inf-drz-2025-rj-2.pdf            -> ZADACI I RJEŠENJA | OSNOVE INFORMATIKE OSNOVNE ŠKOLE | 2025. | DRŽAVNA RAZINA | SEDMI RAZRED
+7r-inf-drz-2025-rj.pdf              -> ZADACI I RJEŠENJA | OSNOVE INFORMATIKE OSNOVNE ŠKOLE | 2025. | DRŽAVNA RAZINA | SEDMI RAZRED
+7r-inf-sko-2025-rj.pdf              -> ZADACI I RJEŠENJA | OSNOVE INFORMATIKE OSNOVNE ŠKOLE | 2025. | ŠKOLSKA RAZINA | SEDMI RAZRED
+7r-inf-zup-2025-rj.pdf              -> ZADACI I RJEŠENJA | OSNOVE INFORMATIKE OSNOVNE ŠKOLE | 2025. | ŽUPANIJSKA RAZINA | SEDMI RAZRED | ​
+7r-kem-drz-2025-prakticni-2.pdf     -> Državna razina Natjecanja iz kemije u šk. god. 2024./2025. | Pokus 1 za 7. razred osnovne škole | Zaporka: ______________________ | Narančasto, žuto, bijelo | P
+7r-kem-drz-2025-prakticni.pdf       -> Državna razina Natjecanja iz kemije u šk. god. 2024./2025. | Pokus 2 za 7. razred osnovne škole | Zaporka: ______________________ | Otapa li se? Kako kad! | Pri
+7r-kem-sko-2025-prakticni-rj.pdf    -> — RJEŠENJA — | Školska razina Natjecanja iz kemije u šk. god. 2024./2025. | Zadatci za 7. razred osnovne škole | Zaporka: ______________________ | 1. | Zadatak 
+7r-kem-zup-2025-prakticni-rj.pdf    -> — RJEŠENJA — | Županijska razina natjecanja iz kemije u šk. god. 2024./2025. | Zadatci za 7. razred osnovne škole | Zaporka: ______________________ | kojima od 
+8r-bio-drz-2025-list-2.pdf          -> DRŽAVNO NATJECANJE IZ | BIOLOGIJE | 2025. | 2. skupina | (8. razred OŠ) | Zaporka | natjecatelja | SUDIONIK | NATJECANJA U | USPJEH NA | NATJECANJU | ZNANJU / P
+8r-bio-drz-2025-list.pdf            -> DRŽAVNO NATJECANJE IZ BIOLOGIJE 2025. 2. skupina (8. razred) | OBRAZAC ZA ODGOVORE | Broj | postignutih | bodova | Zaporka | natjecatelja | I. | SKUPINA ZADATAK
+8r-bio-drz-2025-rj.pdf              -> DRŽAVNO NATJECANJE IZ BIOLOGIJE 2025. 2. skupina (8. razred) | RJEŠENJA PISANE ZADAĆE | 2. SKUPINA (8. razred) | UKUPNO 50 BODOVA | I. SKUPINA ZADATAKA (ukupno 
+8r-bio-sko-2025-list-2.pdf          -> ŠKOLSKO NATJECANJE IZ | BIOLOGIJE | 2025. | 2. skupina | (8. razred OŠ) | Zaporka | natjecatelja | SUDIONIK | NATJECANJA U | USPJEH NA | NATJECANJU | ZNANJU | U
+8r-bio-sko-2025-list.pdf            -> ŠKOLSKO NATJECANJE IZ BIOLOGIJE 2025. 2. skupina (8. razred) | OBRAZAC ZA ODGOVORE | Broj | postignutih | bodova | Zaporka | natjecatelja | Ovdje upisivati slov
+8r-bio-sko-2025-rj.pdf              -> ŠKOLSKO NATJECANJE IZ BIOLOGIJE 2025. 2. skupina (8. razred) | RJEŠENJA PISANE ZADAĆE | 2. SKUPINA (8. razred) | UKUPNO 40 BODOVA | I. SKUPINA ZADATAKA (ukupno 
+8r-bio-zup-2025-list-2.pdf          -> ŽUPANIJSKO NATJECANJE IZ | BIOLOGIJE | 2025. | 2. skupina | (8. razred OŠ) | Zaporka | natjecatelja | SUDIONIK | NATJECANJA U | USPJEH NA | NATJECANJU | ZNANJU 
+8r-bio-zup-2025-list.pdf            -> ŽUPANIJSKO NATJECANJE IZ BIOLOGIJE 2025. 2. skupina (8. razred OŠ ) | OBRAZAC ZA ODGOVORE | Broj | postignutih | bodova | Zaporka | natjecatelja | Ovdje upisiva
+8r-bio-zup-2025-rj.pdf              -> ŽUPANIJSKO NATJECANJE IZ BIOLOGIJE 2025. 2. skupina (8. razred OŠ) | RJEŠENJA PISANE ZADAĆE | 2. SKUPINA (8. razred) | UKUPNO 50 BODOVA | I. SKUPINA ZADATAKA (u
+8r-eng-drz-2025-list-2.pdf          -> DRŽAVNO NATJECANJE IZ ENGLESKOGA JEZIKA | za 8. razred osnovne škole | ŠKOLSKA GODINA 2024./2025. | LIST ZA ODGOVORE (ANSWER SHEET) | Kategorija (zaokružiti): a
+8r-eng-drz-2025-list.pdf            -> DRŽAVNO NATJECANJE IZ ENGLESKOGA JEZIKA | za 8. razred osnovne škole | ŠKOLSKA GODINA 2024./2025. | Kategorija (zaokružiti): a) 8. razred | b) Lista C | Zaporka
+8r-eng-drz-2025-rj.pdf              -> Državno natjecanje iz engleskoga jezika za 8. razred osnovne škole, šk. god. 2024./2025. | KLJUČ ZA ODGOVORE (ANSWER KEY) | TASK 1 – LISTENING | COMPREHENSION |
+8r-eng-drz-2025-transkript.pdf      -> DRŽAVNO NATJECANJE IZ ENGLESKOGA JEZIKA | za osmi razred osnovne škole | ŠKOLSKA GODINA 2024./2025. | SLUŠANJE S RAZUMIJEVANJEM | Good morning. May I have your 
+8r-eng-drz-2025.pdf                 -> DRŽAVNO NATJECANJE IZ ENGLESKOGA JEZIKA | za 8. razred osnovne škole | ŠKOLSKA GODINA 2024./2025. | Kategorija (zaokružiti): a) 8. razred | b) Lista C | Zaporka
+8r-geo-drz-2025-prakticni-rj.pdf    -> 32. DRŽAVNO NATJECANJE IZ GEOGRAFIJE 2025. | 8. RAZRED | PROVJERA GEOGRAFSKIH VJEŠTINA | Točni odgovori i sustav bodovanja | 1. zadatak: 20 bodova | b) (1,5) | 
+8r-geo-drz-2025-prakticni.pdf       -> 32. DRŽAVNO NATJECANJE IZ GEOGRAFIJE 2024./2025. | 8. RAZRED | PROVJERA GEOGRAFSKIH VJEŠTINA | Zaporka | Broj postignutih bodova ____ / 30 | Potpis članova Drža
+8r-geo-drz-2025-rj.pdf              -> 32. DRŽAVNO NATJECANJE IZ GEOGRAFIJE 2024./2025. | 8. RAZRED | TOČNI ODGOVORI | Bodovanje za sve zadatke: – boduju se samo točni odgovori | – dodatne upute o bo
+8r-geo-drz-2025.pdf                 -> 32. DRŽAVNO NATJECANJE IZ GEOGRAFIJE 2024./2025. | Razred ili kategorija natjecanja: ispit za 8. razred gimnazije | Zaporka | __________________________________
+8r-geo-sko-2025-rj.pdf              -> ŠKOLSKA RAZINA NATJECANJA IZ GEOGRAFIJE 2024./2025. | 8. RAZRED | TOČNI ODGOVORI | Bodovanje za sve zadatke: – boduju se samo točni odgovori | – dodatne upute o
+8r-geo-sko-2025.pdf                 -> ŠKOLSKA RAZINA NATJECANJA IZ GEOGRAFIJE 2024./2025. | Razred ili kategorija natjecanja: ispit za 8. razred | Zaporka | Broj postignutih bodova | / 50 | Potpis č
+8r-geo-zup-2025-rj.pdf              -> ŽUPANIJSKA RAZINA NATJECANJA IZ GEOGRAFIJE 2024./2025. | 8. RAZRED | TOČNI ODGOVORI | Bodovanje za sve zadatke: – boduju se samo točni odgovori | – dodatne uput
+8r-geo-zup-2025.pdf                 -> ŽUPANIJSKA RAZINA NATJECANJA IZ GEOGRAFIJE 2024./2025. | Razred ili kategorija natjecanja: ispit za 8. razred | Zaporka | Broj postignutih bodova | / 50 | Potpi
+8r-hrj-drz-2025-rj.pdf              -> RJEŠENJA I BODOVANJE UČENIČKIH ODGOVORA – VIII. RAZRED | XXX. NATJECANJE IZ HRVATSKOGA JEZIKA (2025.) | DRŽAVNA RAZINA | Ispit ima 30 zadataka. Točni odgovori v
+8r-hrj-drz-2025.pdf                 -> Razina: državno | Razred: 8. | Sastavljači: Tomislav Hrebak, Ivana Milišić | ZADATAK | 1. | 2. | 3. | 4. | 5. | 6. | 7. | 8. | 9. | 10. | 11. | 12. | 13. | 14. 
+8r-hrj-sko-2025-rj.pdf              -> RJEŠENJA I BODOVANJE UČENIČKIH ODGOVORA – VIII. RAZRED | XXX. NATJECANJE IZ HRVATSKOGA JEZIKA (2025.) | ŠKOLSKA RAZINA | Ispit ima 28 zadataka. Točni odgovori v
+8r-hrj-sko-2025.pdf                 -> Razina: školska | Razred: 8. | Sastavljači: Tomislav Hrebak, Ivana Milišić | ZADATAK | 1. | 2. | 3. | 4. | 5. | 6. | 7. | 8. | 9. | 10. | 11. | 12. | 13. | 14. 
+8r-hrj-zup-2025-rj.pdf              -> RJEŠENJA I BODOVANJE UČENIČKIH ODGOVORA – VIII. RAZRED | XXX. NATJECANJE IZ HRVATSKOGA JEZIKA (2025.) | ŽUPANIJSKA RAZINA | Ispit ima 36 zadataka. Točni odgovor
+8r-hrj-zup-2025.pdf                 -> Razina: županijska | Razred: 8. | Sastavljači: Tomislav Hrebak, Ivana Milišić | ZADATAK | 1. | 2. | 3. | 4. | 5. | 6. | 7. | 8. | 9. | 10. | 11. | 12. | 13. | 1
+8r-inf-drz-2025-rj-2.pdf            -> ZADACI I RJEŠENJA | OSNOVE INFORMATIKE OSNOVNE ŠKOLE | 2025. | DRŽAVNA RAZINA | OSMI RAZRED
+8r-inf-drz-2025-rj.pdf              -> ZADACI I RJEŠENJA | OSNOVE INFORMATIKE OSNOVNE ŠKOLE | 2025. | DRŽAVNA RAZINA | OSMI RAZRED
+8r-inf-sko-2025-rj.pdf              -> ZADACI I RJEŠENJA | OSNOVE INFORMATIKE OSNOVNE ŠKOLE | 2025. | ŠKOLSKA RAZINA | OSMI RAZRED
+8r-inf-zup-2025-rj.pdf              -> ZADACI I RJEŠENJA | OSNOVE INFORMATIKE OSNOVNE ŠKOLE | 2025. | ŽUPANIJSKA RAZINA | OSMI RAZRED | ​
+8r-kem-drz-2025-prakticni-rj-2.pdf  -> — RJEŠENJA — | Državno natjecanje iz kemije u šk. god. 2024./2025. | pokus 1 za 8. razred osnovne škole | Zaporka: ______________________ | CILJ: S dostupnim pr
+8r-kem-drz-2025-prakticni-rj.pdf    -> — RJEŠENJA — | Državno natjecanje iz kemije u šk. god. 2024./2025. | pokus 2 za 8. razred osnovne škole | Zaporka: ______________________ | POKUS 2 U osam i u o
+8r-kem-sko-2025-rj.pdf              -> — RJEŠENJA — | Školska razina Natjecanja iz kemije u šk. god. 2024./2025. | Zadatci za 8. razred osnovne škole | Zaporka: ______________________ | Riješi zadatk
+8r-kem-zup-2025-prakticni-rj.pdf    -> — RJEŠENJA — | Županijska razina Natjecanja iz kemije u šk. god. 2024./2025. | Zadatci za 8. razred osnovne škole | Zaporka: ______________________ | Zadatke 1.
+8r-pov-sko-2025-rj.pdf              -> Školsko natjecanje iz povijesti | Školska godina 2024./2025. | Skupina: osmi razred | 22. siječnja 2025. | Rješenja testa za školsko natjecanje 2024. /2025. za 
+os-fiz-drz-2025-prakticni.pdf       -> DRŽAVNO NATJECANJE IZ FIZIKE ZA UČENIKE OSNOVNIH ŠKOLA | ŠK. GOD. 2024./2025. | 7. SVIBNJA 2025. | VAŽNO: Tijekom ispita ne smijete se koristiti nikakvim pisani
+os-fiz-drz-2025.pdf                 -> DRŽAVNO NATJECANJE IZ FIZIKE ZA UČENIKE OSNOVNIH ŠKOLA | ŠK. GOD. 2024./2025. | 6. SVIBNJA 2025. | VAŽNO: Tijekom ispita ne smiješ se koristiti nikakvim pisanim
+os-fiz-sko-2025-rj.pdf              -> RJEŠENJA ZADATAKA ŠKOLSKOG NATJECANJA IZ FIZIKE ZA UČENIKE | OSNOVNIH ŠKOLA | ŠK. GOD. 2024./2025. | 17. VELJAČE 2025. | NAPOMENA: U svim zadatcima, gdje je pot
+os-fiz-sko-2025.pdf                 -> ŠKOLSKO NATJECANJE IZ FIZIKE ZA UČENIKE OSNOVNIH ŠKOLA | ŠK. GOD. 2024./2025. | 17. VELJAČE 2025. | VAŽNO: Tijekom ispita učenici se ne smiju koristiti nikakvim
+os-fiz-zup-2025-rj.pdf              -> ŽUPANIJSKO NATJECANJE ZA UČENIKE OSNOVNIH ŠKOLA | ŠK. GOD. 2024./2025. | 20. OŽUJKA 2025. | RJEŠENJA ZADATAKA | Upute za bodovanje: Ovdje je prikazan jedan nači
+os-fiz-zup-2025.pdf                 -> ŽUPANIJSKO NATJECANJE ZA UČENIKE OSNOVNIH ŠKOLA | ŠK. GOD. 2024./2025. | 20. OŽUJKA 2025. | VAŽNO: Tijekom ispita učenici se ne smiju koristiti nikakvim pisanim
+ss-geo-drz-2025-A-prakticni-rj.pdf  -> 32. DRŽAVNO NATJECANJE IZ GEOGRAFIJE 2024./2025. | A-KATEGORIJA SREDNJIH STRUKOVNIH I UMJETNIČKIH ŠKOLA | PROVJERA GEOGRAFSKIH VJEŠTINA | Točni odgovori i susta
+ss-geo-drz-2025-A-prakticni.pdf     -> 32. DRŽAVNO NATJECANJE IZ GEOGRAFIJE 2024./2025. | A-KATEGORIJA SREDNJIH STRUKOVNIH I UMJETNIČKIH ŠKOLA | PROVJERA GEOGRAFSKIH VJEŠTINA | Zaporka | Broj postign
+ss-geo-drz-2025-A-rj.pdf            -> 32. DRŽAVNO NATJECANJE IZ GEOGRAFIJE 2024./2025. | A-KATEGORIJA STRUKOVNIH I UMJETNIČKIH ŠKOLA | TOČNI ODGOVORI | Bodovanje za sve zadatke: - boduju se samo toč
+ss-geo-drz-2025-A.pdf               -> 32. DRŽAVNO NATJECANJE IZ GEOGRAFIJE 2024./2025. | Razred ili kategorija natjecanja: A-kategorija strukovnih i umjetničkih škola | Zaporka | Broj postignutih bo
+ss-geo-drz-2025-B-prakticni-rj.pdf  -> 32. DRŽAVNO NATJECANJE IZ GEOGRAFIJE 2024./2025. | B-KATEGORIJA SREDNJIH STRUKOVNIH I UMJETNIČKIH ŠKOLA | PROVJERA GEOGRAFSKIH VJEŠTINA | TOČNI ODGOVORI I SUSTA
+ss-geo-drz-2025-B-prakticni.pdf     -> 32. DRŽAVNO NATJECANJE IZ GEOGRAFIJE 2024./2025. | B-KATEGORIJA SREDNJIH STRUKOVNIH I UMJETNIČKIH ŠKOLA | PROVJERA GEOGRAFSKIH VJEŠTINA | Zaporka | Broj postign
+ss-geo-drz-2025-B-rj.pdf            -> 32. DRŽAVNO NATJECANJE IZ GEOGRAFIJE 2024./2025. | B KATEGORIJA STRUKOVNIH I UMJETNIČKIH ŠKOLA | TOČNI ODGOVORI | Bodovanje za sve zadatke: - boduju se samo toč
+ss-geo-drz-2025-B.pdf               -> 32. DRŽAVNO NATJECANJE IZ GEOGRAFIJE 2024./2025. GODINE | Razred ili kategorija natjecanja: B-kategorija srednjih strukovnih i umjetničkih škola | Zaporka | Bro
+ss-geo-sko-2025-A-rj.pdf            -> ŠKOLSKA RAZINA NATJECANJA IZ GEOGRAFIJE 2024./2025. | A-KATEGORIJA STRUKOVNIH I UMJETNIČKIH ŠKOLA | TOČNI ODGOVORI | Bodovanje za sve zadatke: - boduju se samo 
+ss-geo-sko-2025-A.pdf               -> ŠKOLSKA RAZINA NATJECANJA IZ GEOGRAFIJE 2024./2025. | Razred ili kategorija natjecanja: A-kategorija strukovnih i umjetničkih škola | Zaporka | Broj postignutih
+ss-geo-sko-2025-B-rj.pdf            -> ŠKOLSKA RAZINA NATJECANJA IZ GEOGRAFIJE 2024./2025. | B-KATEGORIJA | TOČNI ODGOVORI | Bodovanje za sve zadatke: - boduju se samo točni odgovori | - dodatne uput
+ss-geo-sko-2025-B.pdf               -> ŠKOLSKA RAZINA NATJECANJA IZ GEOGRAFIJE 2024./2025. | Razred ili kategorija natjecanja: B-kategorija strukovnih i umjetničkih škola | Zaporka | Broj postignutih
+ss-geo-zup-2025-A-rj.pdf            -> ŽUPANIJSKA RAZINA NATJECANJA IZ GEOGRAFIJE 2024./2025. | A KATEGORIJA STRUKOVNIH I UMJETNIČKIH ŠKOLA | TOČNI ODGOVORI | Bodovanje za sve zadatke: - boduju se sa
+ss-geo-zup-2025-A.pdf               -> ŽUPANIJSKA RAZINA NATJECANJA IZ GEOGRAFIJE 2024./2025. | Razred ili kategorija natjecanja: A-kategorija strukovnih i umjetničkih škola | Zaporka | Broj postignu
+ss-geo-zup-2025-B-rj.pdf            -> ŽUPANIJSKA RAZINA NATJECANJA IZ GEOGRAFIJE 2024./2025. | B-KATEGORIJA | TOČNI ODGOVORI | Bodovanje za sve zadatke: – boduju se samo točni odgovori | – dodatne u
+ss-geo-zup-2025-B.pdf               -> ŽUPANIJSKA RAZINA NATJECANJA IZ GEOGRAFIJE | 2024./2025. | Razred ili kategorija natjecanja: B kategorija strukovnih i umjetničkih škola | Zaporka | Broj postig
+ss-inf-drz-2025-list-2.pdf          -> Test | ispravio/la: | (1) | (2) | Ukupan broj bodova: | 9. travnja 2025. od 11:00 do 12:30 | Državno natjecanje / Osnove informatike Srednje škole | Ime i prezi
+ss-inf-drz-2025-list.pdf            -> Test | ispravio/la: | (1) | (2) | Ukupan broj bodova: | 9. travnja 2025. od 11:00 do 12:30 | Državno natjecanje / Osnove informatike Srednje škole | Ime i prezi
+ss-inf-sko-2025.pdf                 -> Osnove informatike 2024./25. ŠKOLSKO NATJECANJE | Osnove informatike | ŠKOLSKO NATJECANJE | 2024./25. | Autori zadataka: | Vladimira Majdandžić | Kristina Lučić
+ss-inf-zup-2025-list-2.pdf          -> Test | ispravio/la: | (1) | (2) | Ukupan broj bodova: | 10. ožujka 2025. od 13:00 do 14:00 | Županijsko natjecanje / Osnove informatike Srednje škole | RJEŠENJA
+ss-inf-zup-2025-list.pdf            -> (1) | Test | ispravio/la: | (2) | Ukupan broj bodova: | 10. ožujka 2025. od 13:00 do 14:00 | Županijsko natjecanje / Osnove informatike Srednje škole | Ime i pr
