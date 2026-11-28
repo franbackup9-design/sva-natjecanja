@@ -1,4 +1,4 @@
-const PDF_FOLDER = "https://github.com";
+const PDF_FOLDER = "https://github.com/franbackup9-design/sva-natjecanja/raw/main/pdf";
 
 const naziviPredmeta = {
   hrj: "Hrvatski jezik",
