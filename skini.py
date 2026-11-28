@@ -18,54 +18,85 @@ for f in os.listdir(MAPA):
         postojeci_otisci.add((len(podaci), hashlib.md5(podaci).hexdigest()))
 
 def je_nebitan(txt, ime_low):
+    if len(txt.strip()) < 25:
+        return True
     lose = (
         "competizione", "competizioni", "такмичење", "такимичење", "таkмичење", "шkолсkо",
         "решења", "verseny", "soutěž", "listić sa zaporkom", "poveznice na snimke",
         "dopune rješenja", "tablica s bodovima", "obrazac - 1 prijava",
         "ljestvica konačnog poretka", "privremena ljestvica", "globe škola",
-        "crvenog križa", "izvješće sa", ".wav", "transekt 3", "hrvatsko kemijsko društvo"
+        "crvenog križa", "izvješće sa", ".wav", "transekt", "hrvatsko kemijsko društvo",
+        "obrazac za prijavu", "suglasnost roditelja", "vremenik natjecanja"
     )
     if any(k in txt for k in lose):
         return True
-    return any(k in ime_low for k in ("pozvan", "ljestvic", "poredak", "prijevoz", "autobus", "pravila", "upute_za_provedbu", "globe", "hck"))
+    return any(k in ime_low for k in (
+        "pozvan", "ljestvic", "poredak", "prijevoz", "autobus", "pravila",
+        "upute_za_provedbu", "upute-za-provedbu", "globe", "hck", "vremenik", "program"
+    ))
 
 def odredi_razred(predmet, prvi_dio, txt, ime_low):
     if re.match(r"^([1-8]rs?|os|ss)$", prvi_dio):
         return prvi_dio
+
     if predmet == "geo" and any(k in txt for k in ("a-kategorija", "a kategorija", "b-kategorija", "b kategorija", "strukovnih i umjetničkih")):
         return "ss"
+
     if predmet == "bio":
         for s, r in (("1. skupina", "7r"), ("2. skupina", "8r"), ("3. skupina", "1rs"), ("4. skupina", "2rs"), ("5. skupina", "3rs"), ("6. skupina", "4rs")):
-            if s in txt: return r
+            if s in txt:
+                return r
+
     if predmet == "pov":
-        if any(k in txt for k in ("1. kategorija", "1. skupina", "skupina 1", "vii.", "7. razred", "sedmi")): return "7r"
-        if any(k in txt for k in ("2. kategorija", "2. skupina", "skupina 2", "viii.", "8. razred", "osmi")): return "8r"
-        if any(k in txt for k in ("3. kategorija", "3. skupina", "skupina 3", "i. razred", "1. razred", "prvi")): return "1rs"
-        if any(k in txt for k in ("4. kategorija", "4. skupina", "skupina 4", "ii. razred", "2. razred", "drugi")): return "2rs"
-        if any(k in txt for k in ("5. kategorija", "5. skupina", "skupina 5", "iii. razred", "3. razred", "treći")): return "3rs"
-        if any(k in txt for k in ("6. kategorija", "6. skupina", "skupina 6", "iv. razred", "4. razred", "četvrti")): return "4rs"
+        if any(k in txt for k in ("1. kategorija", "1. skupina", "skupina 1")): return "7r"
+        if any(k in txt for k in ("2. kategorija", "2. skupina", "skupina 2")): return "8r"
+        if any(k in txt for k in ("3. kategorija", "3. skupina", "skupina 3")): return "1rs"
+        if any(k in txt for k in ("4. kategorija", "4. skupina", "skupina 4")): return "2rs"
+        if any(k in txt for k in ("5. kategorija", "5. skupina", "skupina 5")): return "3rs"
+        if any(k in txt for k in ("6. kategorija", "6. skupina", "skupina 6")): return "4rs"
+
     if predmet == "fiz":
         for g, r in (("1. grupa", "1rs"), ("2. grupa", "2rs"), ("3. grupa", "3rs"), ("4. grupa", "4rs")):
-            if g in txt: return r
+            if g in txt:
+                return r
 
-    for uzorci, r in (
-        (("8. razred", "8.razred", "osmi razred", "viii. razred", "8os"), "8r"),
-        (("7. razred", "7.razred", "sedmi razred", "vii. razred", "7os"), "7r"),
-        (("6. razred", "6.razred", "šesti razred"), "6r"),
-        (("5. razred", "5.razred", "peti razred"), "5r"),
-        (("4. razred", "4.razred", "četvrti razred", "iv. razred", "razred: 4", "razred: četvrti", "4ss"), "4rs"),
-        (("3. razred", "3.razred", "treći razred", "iii. razred", "razred: 3", "razred: treći", "3ss"), "3rs"),
-        (("2. razred", "2.razred", "drugi razred", "ii. razred", "razred: 2", "razred: drugi", "2ss"), "2rs"),
-        (("1. razred", "1.razred", "prvi razred", "i. razred", "razred: 1", "razred: prvi", "1ss"), "1rs"),
-    ):
-        if any(k in txt for k in uzorci): return r
+    pravila_razreda = (
+        (r"\b(?:8\s*\.\s*(?:razred|r\b)|osmi\s+razred|viii\s*\.\s*(?:razred|r\b)|8os)\b", "8r"),
+        (r"\b(?:7\s*\.\s*(?:razred|r\b)|sedmi\s+razred|vii\s*\.\s*(?:razred|r\b)|7os)\b", "7r"),
+        (r"\b(?:6\s*\.\s*(?:razred|r\b)|šesti\s+razred|vi\s*\.\s*(?:razred|r\b)|6os)\b", "6r"),
+        (r"\b(?:5\s*\.\s*(?:razred|r\b)|peti\s+razred|v\s*\.\s*(?:razred|r\b)|5os)\b", "5r"),
+        (r"\b(?:4\s*\.\s*(?:razred|r\b)|četvrti\s+razred|iv\s*\.\s*(?:razred|r\b)|razred:\s*4|razred:\s*četvrti|4ss)\b", "4rs"),
+        (r"\b(?:3\s*\.\s*(?:razred|r\b)|treći\s+razred|iii\s*\.\s*(?:razred|r\b)|razred:\s*3|razred:\s*treći|3ss)\b", "3rs"),
+        (r"\b(?:2\s*\.\s*(?:razred|r\b)|drugi\s+razred|ii\s*\.\s*(?:razred|r\b)|razred:\s*2|razred:\s*drugi|2ss)\b", "2rs"),
+        (r"\b(?:1\s*\.\s*(?:razred|r\b)|prvi\s+razred|i\s*\.\s*(?:razred|r\b)|razred:\s*1|razred:\s*prvi|1ss)\b", "1rs"),
+    )
+    for uzorak, r in pravila_razreda:
+        if re.search(uzorak, txt):
+            return r
+
+    je_os_tekst = any(k in txt for k in ("osnovn", "o. š.", "o.š.", "7os", "8os"))
+    je_ss_tekst = any(k in txt for k in ("srednj", "gimnazij", "strukovn", "1ss", "2ss", "3ss", "4ss"))
+    ignoriraj_iza = r"(?!\s*(?:zadatak|dio|svjetsk|stolj|mjesto|dan|put|kolo|list))"
+
+    if je_os_tekst:
+        if re.search(rf"\b(8|viii)\s*\.{ignoriraj_iza}", txt): return "8r"
+        if re.search(rf"\b(7|vii)\s*\.{ignoriraj_iza}", txt): return "7r"
+        if re.search(rf"\b(6|vi)\s*\.{ignoriraj_iza}", txt): return "6r"
+        if re.search(rf"\b(5|v)\s*\.{ignoriraj_iza}", txt): return "5r"
+
+    if je_ss_tekst:
+        if re.search(rf"\b(4|iv)\s*\.{ignoriraj_iza}", txt): return "4rs"
+        if re.search(rf"\b(3|iii)\s*\.{ignoriraj_iza}", txt): return "3rs"
+        if re.search(rf"\b(2|ii)\s*\.{ignoriraj_iza}", txt): return "2rs"
+        if re.search(rf"\b(1|i)\s*\.{ignoriraj_iza}", txt): return "1rs"
 
     m = re.search(r"(?:^|[^0-9])([1-8])\s*\.?\s*(?:skupin|raz|r\b|_r|-r)", ime_low)
     if m:
         br = m.group(1)
         je_ss = (br in ("1", "2", "3", "4") and predmet != "mat") or any(k in ime_low for k in ("ss", "sš", "srednj", "skupin"))
         return f"{br}{'rs' if je_ss else 'r'}"
-    return "ss" if any(k in f"{ime_low} {txt}" for k in ("srednje škole", "srednjih škola", "gimnazij", "strukovn", "ss", "sš")) else "os"
+
+    return "ss" if (je_ss_tekst or any(k in ime_low for k in ("ss", "sš", "srednj", "gimnazij"))) else "os"
 
 def prepoznaj(putanja_pdf, sifra, izvorno_ime):
     ime_low = izvorno_ime.lower()
@@ -84,7 +115,13 @@ def prepoznaj(putanja_pdf, sifra, izvorno_ime):
         return None
 
     spojeno = f"{ime_low} {txt}"
-    razina = "drz" if ("drz" in svi_d or any(k in spojeno for k in ("državno natjecanje", "drzavno natjecanje", "državna razina", "drzavna razina"))) else ("zup" if ("zup" in svi_d or any(k in spojeno for k in ("županijsko natjecanje", "zupanijsko natjecanje", "županijska razina", "zupanijska razina"))) else "sko")
+    if "drz" in svi_d or any(k in spojeno for k in ("državno natjecanje", "drzavno natjecanje", "državna razina", "drzavna razina")):
+        razina = "drz"
+    elif "zup" in svi_d or any(k in spojeno for k in ("županijsko natjecanje", "zupanijsko natjecanje", "županijska razina", "zupanijska razina")):
+        razina = "zup"
+    else:
+        razina = "sko"
+
     razred = odredi_razred(predmet, prvi_dio, txt, ime_low)
 
     var = ""
@@ -100,8 +137,11 @@ def prepoznaj(putanja_pdf, sifra, izvorno_ime):
     je_prakt = any(k in ime_low for k in ("eksp", "prakt")) or any(k in txt for k in ("pokus", "provjera geografskih vještina", "eksperimentalni zadatak"))
 
     if predmet == "bio":
-        je_list = False if ("sudionik natjecanja" in txt or "uspjeh na natjecanju" in txt) else je_list
-        je_rj = False if ("sudionik natjecanja" in txt or "uspjeh na natjecanju" in txt) else ("rješenja pisane zadaće" in txt)
+        if "sudionik natjecanja" in txt or "uspjeh na natjecanju" in txt:
+            je_list = False
+            je_rj = False
+        else:
+            je_rj = "rješenja pisane zadaće" in txt
     elif predmet == "hrj":
         je_rj = ("rješenja i bodovanje" in txt) or ("bodovanje ispitnih zadataka" in txt)
     elif predmet == "pov":
@@ -131,23 +171,32 @@ def spremi(sadrzaj, sifra, izvorno_ime):
     print(f"  + {ime}")
 
 def raspakiraj(podaci, sifra):
+    if not zipfile.is_zipfile(podaci):
+        return
+    podaci.seek(0)
     with zipfile.ZipFile(podaci) as zf:
         for f in zf.namelist():
-            if f.startswith("__MACOSX") or f.endswith("/"): continue
-            if f.lower().endswith(".zip"): raspakiraj(io.BytesIO(zf.read(f)), sifra)
-            elif f.lower().endswith(".pdf"): spremi(zf.read(f), sifra, os.path.basename(f))
+            if f.startswith("__MACOSX") or f.endswith("/"):
+                continue
+            if f.lower().endswith(".zip"):
+                raspakiraj(io.BytesIO(zf.read(f)), sifra)
+            elif f.lower().endswith(".pdf"):
+                spremi(zf.read(f), sifra, os.path.basename(f))
 
 with open("linkovi.txt", encoding="utf-8") as f:
     for linija in f:
         linija = linija.strip()
-        if not linija or linija.startswith("#"): continue
+        if not linija or linija.startswith("#"):
+            continue
         sifra, url = linija.split(maxsplit=1)
         dijelovi = sifra.split("-")
         god = dijelovi.pop() if dijelovi else ""
         svi_d = sifra.split("-")
         pred = next((p for p in ("hrj", "eng", "mat", "fiz", "kem", "pov", "geo", "bio", "inf") if p in svi_d), "")
-        if god in ("2026", "2025", "2024") or pred == "mat":
+
+        if god in ("2026", "2025", "2024", "2023") or pred == "mat":
             continue
+
         try:
             podaci = urllib.request.urlopen(urllib.request.Request(url, headers=HEADERS), timeout=30).read()
             if url.lower().endswith(".zip"):
