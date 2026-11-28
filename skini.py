@@ -49,14 +49,14 @@ def odredi_razred(predmet, prvi_dio, txt, ime_low):
             if g in txt: return r
 
     for uzorci, r in (
-        (("5. razred", "5.razred", "peti razred"), "5r"),
-        (("6. razred", "6.razred", "šesti razred"), "6r"),
-        (("7. razred", "7.razred", "sedmi razred", "vii. razred", "7os"), "7r"),
         (("8. razred", "8.razred", "osmi razred", "viii. razred", "8os"), "8r"),
-        (("1. razred", "1.razred", "prvi razred", "i. razred", "razred: 1", "razred: prvi", "1ss"), "1rs"),
-        (("2. razred", "2.razred", "drugi razred", "ii. razred", "razred: 2", "razred: drugi", "2ss"), "2rs"),
-        (("3. razred", "3.razred", "treći razred", "iii. razred", "razred: 3", "razred: treći", "3ss"), "3rs"),
+        (("7. razred", "7.razred", "sedmi razred", "vii. razred", "7os"), "7r"),
+        (("6. razred", "6.razred", "šesti razred"), "6r"),
+        (("5. razred", "5.razred", "peti razred"), "5r"),
         (("4. razred", "4.razred", "četvrti razred", "iv. razred", "razred: 4", "razred: četvrti", "4ss"), "4rs"),
+        (("3. razred", "3.razred", "treći razred", "iii. razred", "razred: 3", "razred: treći", "3ss"), "3rs"),
+        (("2. razred", "2.razred", "drugi razred", "ii. razred", "razred: 2", "razred: drugi", "2ss"), "2rs"),
+        (("1. razred", "1.razred", "prvi razred", "i. razred", "razred: 1", "razred: prvi", "1ss"), "1rs"),
     ):
         if any(k in txt for k in uzorci): return r
 

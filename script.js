@@ -45,6 +45,21 @@ const razinaFilter = document.getElementById("razinaFilter");
 const godinaFilter = document.getElementById("godinaFilter");
 const resetBtn = document.getElementById("resetBtn");
 
+function opisRazreda(razred, predmet) {
+  if (razred === "os") {
+    if (predmet === "fiz") return "7. i 8. razred OŠ";
+    if (predmet === "mat") return "4. – 8. razred OŠ";
+    return "Osnovna škola (svi razredi)";
+  }
+  if (razred === "ss") {
+    if (predmet === "geo") return "1. – 4. razred SŠ (strukovne)";
+    if (predmet === "mat") return "1. – 4. razred SŠ";
+    if (predmet === "inf") return "1. – 4. razred SŠ";
+    return "Srednja škola (svi razredi)";
+  }
+  return naziviRazreda[razred] || razred;
+}
+
 async function ucitajPdfove() {
   try {
     const response = await fetch("popis.json?v=" + Date.now());
@@ -55,7 +70,6 @@ async function ucitajPdfove() {
     const files = await response.json();
     const pdfImena = new Set(files);
 
-    // Ignoriraj numerirane duplikate tipa -2.pdf, -3.pdf
     const cisteDatoteke = [...pdfImena].filter(ime => !/-\d+\.pdf$/i.test(ime));
 
     const dodatniNastavci = ["-rj.pdf", "-list.pdf", "-transkript.pdf", "-prakticni-rj.pdf"];
@@ -90,7 +104,7 @@ async function ucitajPdfove() {
         razina,
         godina,
         varijanta,
-        naziv: `${naziviPredmeta[predmet] || predmet} - ${naziviRazina[razina] || razina}${oznakaVarijante} (${godina}.)`,
+        naziv: `${naziviPredmeta[predmet] || predmet} - ${naziviRazina[razina] || razina}${oznakaVarijante}${godina ? ` (${godina}.)` : ""}`,
         zadaciUrl: `${PDF_FOLDER}/${ime}`,
         rjesenjaUrl: pdfImena.has(rjIme) ? `${PDF_FOLDER}/${rjIme}` : "",
         transkriptUrl: pdfImena.has(transkriptIme) ? `${PDF_FOLDER}/${transkriptIme}` : "",
@@ -98,10 +112,9 @@ async function ucitajPdfove() {
       };
     });
 
-    // Dodaj i one ispite za koje postoji samo -rj.pdf
     const postojeciKodovi = new Set(svaNatjecanja.map(n => n.kod));
     cisteDatoteke
-      .filter(ime => ime.toLowerCase().endsWith("-rj.pdf") && !ime.toLowerCase().endsWith("-prakticni-rj.pdf"))
+      .filter(ime => ime.toLowerCase().endsWith("-rj.pdf"))
       .forEach(rjIme => {
         const bazniKod = rjIme.replace(/-rj\.pdf$/i, "");
         if (postojeciKodovi.has(bazniKod)) return;
@@ -112,8 +125,9 @@ async function ucitajPdfove() {
         const razina = dijelovi.at(2) || "";
         const godinaMatch = bazniKod.match(/(20\d{2})/);
         const godina = godinaMatch ? godinaMatch.at(0) : "";
+        const jePrakticni = dijelovi.includes("prakticni");
         const varijanta = dijelovi.includes("A") ? "A" : dijelovi.includes("B") ? "B" : dijelovi.includes("C") ? "C" : "";
-        const oznakaVarijante = varijanta ? ` (${varijanta} varijanta)` : "";
+        const oznakaVarijante = varijanta ? ` (${varijanta} varijanta)` : (jePrakticni ? " (Praktični dio)" : "");
 
         svaNatjecanja.push({
           kod: bazniKod,
@@ -122,7 +136,7 @@ async function ucitajPdfove() {
           razina,
           godina,
           varijanta,
-          naziv: `${naziviPredmeta[predmet] || predmet} - ${naziviRazina[razina] || razina}${oznakaVarijante} (${godina}.)`,
+          naziv: `${naziviPredmeta[predmet] || predmet} - ${naziviRazina[razina] || razina}${oznakaVarijante}${godina ? ` (${godina}.)` : ""}`,
           zadaciUrl: "",
           rjesenjaUrl: `${PDF_FOLDER}/${rjIme}`,
           transkriptUrl: "",
@@ -178,11 +192,11 @@ function prikaziNatjecanja() {
       <div class="item-info">
         <h2>${n.naziv}</h2>
         <div class="meta-tags">
-          <span class="tag">${naziviRazreda[n.razred] || n.razred}</span>
+          <span class="tag">${opisRazreda(n.razred, n.predmet)}</span>
           <span class="tag">${naziviPredmeta[n.predmet] || n.predmet}</span>
           <span class="tag">${naziviRazina[n.razina] || n.razina}</span>
           ${n.varijanta ? `<span class="tag">${n.varijanta} varijanta</span>` : ""}
-          <span class="tag">${n.godina}.</span>
+          ${n.godina ? `<span class="tag">${n.godina}.</span>` : ""}
         </div>
       </div>
       <div class="item-actions">
