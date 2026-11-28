@@ -1,3 +1,82 @@
+const PDF_FOLDER = "https://github.com";
+
+const naziviPredmeta = {
+  hrj: "Hrvatski jezik",
+  eng: "Engleski jezik",
+  mat: "Matematika",
+  fiz: "Fizika",
+  kem: "Kemija",
+  pov: "Povijest",
+  geo: "Geografija",
+  bio: "Biologija",
+  inf: "Informatika"
+};
+
+const naziviRazina = {
+  sko: "Školsko",
+  zup: "Županijsko",
+  drz: "Državno"
+};
+
+const naziviRazreda = {
+  "1r": "1. razred OŠ",
+  "2r": "2. razred OŠ",
+  "3r": "3. razred OŠ",
+  "4r": "4. razred OŠ",
+  "5r": "5. razred OŠ",
+  "6r": "6. razred OŠ",
+  "7r": "7. razred OŠ",
+  "8r": "8. razred OŠ",
+  "1rs": "1. razred SŠ",
+  "2rs": "2. razred SŠ",
+  "3rs": "3. razred SŠ",
+  "4rs": "4. razred SŠ",
+  "os": "Svi razredi OŠ",
+  "ss": "Svi razredi SŠ"
+};
+
+let svaNatjecanja = [];
+
+const listContainer = document.getElementById("natjecanjaList");
+const resultsCount = document.getElementById("resultsCount");
+const razredFilter = document.getElementById("razredFilter");
+const predmetFilter = document.getElementById("predmetFilter");
+const razinaFilter = document.getElementById("razinaFilter");
+const godinaFilter = document.getElementById("godinaFilter");
+const resetBtn = document.getElementById("resetBtn");
+
+function opisRazreda(razred, predmet) {
+  if (razred === "os") {
+    if (predmet === "fiz") return "7. i 8. razred OŠ";
+    if (predmet === "mat") return "4. – 8. razred OŠ";
+    return "Osnovna škola (svi razredi)";
+  }
+  if (razred === "ss") {
+    if (predmet === "geo") return "1. – 4. razred SŠ (strukovne)";
+    if (predmet === "mat") return "1. – 4. razred SŠ";
+    if (predmet === "inf") return "1. – 4. razred SŠ";
+    return "Srednja škola (svi razredi)";
+  }
+  return naziviRazreda[razred] || razred;
+}
+
+async function ucitajPdfove() {
+  try {
+    const response = await fetch("popis.json?v=" + Date.now());
+    if (!response.ok) throw new Error("Nema popisa.");
+
+    const files = await response.json();
+    const pdfImena = new Set(files);
+    const cisteDatoteke = [...pdfImena].filter(ime => !/-\d+\.pdf$/i.test(ime));
+
+    const dodatniNastavci = ["-rj.pdf", "-list.pdf", "-transkript.pdf", "-prakticni-rj.pdf"];
+    const ispitneDatoteke = cisteDatoteke.filter(
+      ime => !dodatniNastavci.some(nastavak => ime.toLowerCase().endsWith(nastavak))
+    );
+
+    svaNatjecanja = ispitneDatoteke.map(ime => {
+      const bazniKod = ime.replace(/\.pdf$/i, "");
+      const dijelovi = bazniKod.split("-");
 
       const razred = dijelovi.at(0) || "";
       const predmet = dijelovi.at(1) || "";
@@ -64,7 +143,7 @@
     prikaziNatjecanja();
   } catch (error) {
     resultsCount.textContent = "Prikazano: 0";
-    listContainer.innerHTML = `<div class="empty-state">Pokreni <strong>python3 skini.py</strong> kako bi se generirao popis PDF datoteka.</div>`;
+    listContainer.innerHTML = `<div class="empty-state">Greška: ${error.message}</div>`;
   }
 }
 
