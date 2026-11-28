@@ -43,7 +43,7 @@ async function ucitajPdfove() {
     const res = await fetch("popis.json?v=" + Date.now());
     const files = await res.json();
     const pdfImena = new Set(files);
-    const cisti = files.filter(f => !/-\d+\.pdf$/i.test(f));
+    const cisti = files.filter(f => !/-\d{1,2}\.pdf$/i.test(f));
 
     const jeDodatni = f => f.endsWith("-rj.pdf") || f.endsWith("-list.pdf") || f.endsWith("-transkript.pdf") || f.endsWith("-prakticni-rj.pdf");
     const glavni = cisti.filter(f => !jeDodatni(f));
